@@ -1,0 +1,192 @@
+videos:
+  -
+    name: "FÜNF BIS DREIZEHN - Abschlussvideo"
+    id:   46GiACqo6MQ
+    date: 27. Juni 2017
+    color: "#98281a"
+
+  -
+    name: "WIR SIND MACHER - Der Advent wird lit"
+    id:   JsLIhJGyEtY
+    date: 18. Dezember 2016
+    color: "#E1A454"
+
+  -
+    name: "WILHELMSHAVENER WEIHNACHTSMARKT 2016"
+    id:   HBv5PJW6-KM
+    date: 5. Dezember 2016
+    color: "#CE2012"
+
+  -
+    name: "Wie soll ein Mensch [Michel Theilen Cover]"
+    id:   kT13_b0hUGo
+    date: 8. Oktober 2016
+    color: "#AF2C52"
+
+  -
+    name: "Use Somebody [Michel Theilen Cover]"
+    id:   G12bC0vOJ8w
+    date: 8. Oktober 2016
+    color: "#713b28"
+
+  -
+    name: "NDR2 Open Air Festival Wilhelmshaven 2016"
+    id:   DptEveR-l-U
+    date: 29. Juli 2016
+    color: "#99282E"
+
+  # -
+  #   name: "CARPE DIEM – Cardie [Official Video]"
+  #   id:   ZIyc575webA
+  #   date: 29. Mai 2016
+  #   color: "#404A4E"
+
+  -
+    name: "PASSIONSPUNKTE 2016 - Nordrichten"
+    id:   8if0SlIVsU4
+    date: 3. Mai 2016
+    color: "#BF6E4A"
+
+  -
+    name: "KIWANIS POETRY SLAM 2016 - Nordrichten"
+    id:   U7KK_Eh-If8
+    date: 5. März 2016
+    color: "#5E8098"
+
+  -
+    name: "GOSPECIAL UNTER VOLLDAMPF - Nordrichten"
+    id:   0wT5hF_aplE
+    date: 29. Februar 2016
+    color: "#587341"
+
+  -
+    name: "STRINGS AND BOOM - Nordrichten"
+    id:   EdfWGwOmf7I
+    date: 30. November 2015
+    color: "#645D80"
+
+  -
+    name: "Taufe am Südstrand in Wilhelmshaven"
+    id:   B_RoZHGa7sc
+    date: 17. September 2015
+    color: "#A92C30"
+
+  -
+    name: "WILDFLECKEN KiC 2015 - Nordrichten"
+    id:   0LS8EoQvFVw
+    date: 11. August 2015
+    color: "#406B9E"
+
+  -
+    name: "WOCHENENDE AN DER JADE 2015 - Nordrichten"
+    id:   XU7tN9tzcOU
+    date: 12. Juli 2015
+    color: "#CC4450"
+
+  -
+    name: "KIWANIS POETRY SLAM 2015 - Nordrichten"
+    id:   dMpBX3-0_qY
+    date: 17. März 2015
+    color: "#EA9D5C"
+
+  -
+    name: "DIE MUTMACHERIN: Das Leben ist schön - Buchtrailer"
+    id:   ON0AlByRd_k
+    date: 17. Februar 2015
+    color: "#549279"
+
+  -
+    name: "WINTERWILDFLECKEN 2015 - Nordrichten"
+    id:   SJ-rG8AvLrY
+    date: 8. Februar 2015
+    color: "#FDFDFD"
+    bright: true
+
+  -
+    name: "MAKING OF GOIN' HIGH - Kengumedia"
+    id:   GlbZRaQEdc8
+    date: 25. Januar 2015
+    color: "#DFB551"
+
+  -
+    name: "GOIN' HIGH - Masterminders - Music Video by Kengumedia"
+    id:   HRt18GqfyZQ
+    date: 28. Dezember 2014
+    color: "#FDFDFD"
+    bright: true
+
+  -
+    name: "HOLI WILHELMSHAVEN 2014 - Nordrichten"
+    id:   Zr0rAqCfLaI
+    date: 4. August 2014
+    color: "#4A4C54"
+
+  -
+    name: "WOCHENENDE AN DER JADE 2014"
+    id:   UGBCtBIzJpA
+    date: 7. Juli 2014
+    color: "#518C50"
+
+  -
+    name: "PUBLIC VIEWING IN WILHELMSHAVEN – WM 2014"
+    id:   BU3pN4oPUr8
+    date: 23. Juni 2014
+    color: "#518C50"
+  -
+    name: "WILHELMSHAVEN GEGEN GEWALT 2014"
+    id:   9fT7vjHghTI
+    date: 31. Mai 2014
+    color: "#518C50"
+  -
+    name: "SCHLICKTOWNSLAM 2014 - Poetry Slam"
+    id:   LzHmeadynYc
+    date: 26. Mai 2014
+    color: "#518C50"
+
+  -
+    name: "WIE GEHT ES WEITER? - #6 Topbotschafter Josch"
+    id:   VVpy8Z7wa6Q
+    date: 14. April 2014
+    color: "#44A1EF"
+
+  -
+    name: "DANKE! mit ALEXIBEXI - #5 Topbotschafter Josch"
+    id:   P_LfsT5x5w8
+    date: 24. Dezember 2013
+    color: "#44A1EF"
+
+  -
+    name: "GEWONNEN! - #4 Topbotschafter Josch"
+    id:   _1P_18Gv7kk
+    date: 19. Dezember 2013
+    color: "#44A1EF"
+
+  -
+    name: "MAKING OF - #3 Topbotschafter Josch"
+    id:   FR7j9kgI_yY
+    date: 1. November 2013
+    color: "#44A1EF"
+
+  -
+    name: "DRUMMER JOSCH - #2 Topbotschafter Josch"
+    id:   i_vPiS4ZxyY
+    date: 2. Oktober 2013
+    color: "#44A1EF"
+
+  -
+    name: "STIPENDIUM FÜR JOSCH - #1 Topbotschafter Josch"
+    id:   sO8SwbzBahQ
+    date: 11. September 2013
+    color: "#44A1EF"
+
+  -
+    name: "ZWEI GRUNDSÄTZE - DIE WELLE (Schulfilm 9. Klasse)"
+    id:   pVfs1AST0cw
+    date: 12. Juni 2013
+    color: "#A05A53"
+
+  -
+    name: "WAS IST EINE INFLATION? (Erkärfilm)"
+    id:   m1vvM-5SrkE
+    date: 15. April 2013
+    color: "#83AB54"
