@@ -4,6 +4,8 @@ import { Box } from 'rebass'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'emotion-theming'
 
+import Footer from '../Footer'
+
 import theme from '../../utils/theme.js'
 
 const Layout = ({ title, desc, children, ...props }) => (
@@ -22,6 +24,7 @@ const Layout = ({ title, desc, children, ...props }) => (
         htmlAttributes={{ lang: 'de' }}
       />
       {children}
+      <Footer/>
     </Box>
   </ThemeProvider>
 )
