@@ -1,4 +1,36 @@
 videos:
+
+  -
+    name: "WIE TIEF KANN MAN SEHN [Paula Cover]"
+    id: hm4M9tyISqw
+    date: 9. März 2021
+    color: "#7d3638"
+
+  -
+    name: "LASS MA' NACHHALTIG [Videowettbewerb]"
+    date: 21. Februar 2019
+    id: wKvgh36-Dgw
+    color: "#163b12"
+
+  -
+    name: "LECKERLIES - Kleintierpraxis im Hain Spot"
+    date: 15. Juli 2017
+    id: f3oFNPFPLs0
+    color: "#736962"
+
+  -
+    name: "TAUFE AM SÜDSTRAND - Nordrichten"
+    id: PB9BA6gFwf8
+    date: 22. September 2017
+    color: "#7c94af"
+
+  -
+    name: "EINFACH EASY - Exposify Spot"
+    date: 11. August 2017
+    id: scTYqAYEfh4
+    color: "#ffffff"
+    bright: true
+
   -
     name: "FÜNF BIS DREIZEHN - Abschlussvideo"
     id:   46GiACqo6MQ
@@ -16,6 +48,12 @@ videos:
     id:   HBv5PJW6-KM
     date: 5. Dezember 2016
     color: "#CE2012"
+
+  -
+    name: "IRGENDWOHIN - Pausenfüller"
+    id: Iu61Ioob5TA
+    date: 3. November 2016
+    color: "#b65c52"
 
   -
     name: "Wie soll ein Mensch [Michel Theilen Cover]"
