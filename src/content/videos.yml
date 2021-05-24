@@ -13,12 +13,6 @@ videos:
     color: "#163b12"
 
   -
-    name: "LECKERLIES - Kleintierpraxis im Hain Spot"
-    date: 15. Juli 2017
-    id: f3oFNPFPLs0
-    color: "#736962"
-
-  -
     name: "TAUFE AM SÜDSTRAND - Nordrichten"
     id: PB9BA6gFwf8
     date: 22. September 2017
@@ -30,6 +24,12 @@ videos:
     id: scTYqAYEfh4
     color: "#ffffff"
     bright: true
+
+  -
+    name: "LECKERLIES - Kleintierpraxis im Hain Spot"
+    date: 15. Juli 2017
+    id: f3oFNPFPLs0
+    color: "#736962"
 
   -
     name: "FÜNF BIS DREIZEHN - Abschlussvideo"
