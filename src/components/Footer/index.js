@@ -16,15 +16,14 @@ const Footer = () => (
       },
     })}
   >
-    <Container>
+    <Container mt="3">
       <Flex
         flexWrap="wrap"
         justifyContent="space-around"
         mx="auto"
-        css={{ maxWidth: 300 }}
+        css={{ maxWidth: 300, opacity: 0.5 }}
       >
-        <Link to="/imprint/">Impressum</Link> 🧩
-        <a href="mailto:hey@niklasravnsborg.com">Kontakt</a>
+        <Link to="/imprint/">Impressum</Link>
       </Flex>
     </Container>
   </Box>

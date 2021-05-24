@@ -7,6 +7,7 @@ const theme = {
     accent: '#ffe51f',
     lightgray: '#f6f6ff',
     dark: '#162135',
+    blue: '#2f9dec',
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
@@ -26,9 +27,10 @@ const theme = {
   },
   variants: {
     card: {
-      boxShadow: 'small',
-      borderRadius: 2,
+      boxShadow: 'large',
+      borderRadius: 10,
       color: 'white',
+      backgroundColor: 'dark',
     },
   },
 }
