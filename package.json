@@ -34,7 +34,7 @@
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.19",
     "rebass": "^4.0.7",
-    "typeface-montserrat": "^1.1.13",
+    "typeface-kumbh-sans": "^1.1.13",
     "typography": "^0.16.19"
   }
 }

@@ -2,8 +2,8 @@ import Typography from 'typography'
 
 export default new Typography({
   baseFontSize: '18px',
-  headerFontFamily: ['Montserrat', 'sans-serif'],
-  bodyFontFamily: ['Montserrat', 'sans-serif'],
+  headerFontFamily: ['Kumbh Sans', 'sans-serif'],
+  bodyFontFamily: ['Kumbh Sans', 'sans-serif'],
   bodyWeight: 300,
   overrideStyles: _ => ({
     body: {

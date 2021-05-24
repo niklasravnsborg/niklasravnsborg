@@ -1,5 +1,5 @@
 import React from 'react'
-import 'typeface-montserrat'
+import 'typeface-kumbh-sans'
 import { Box } from 'rebass'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from 'emotion-theming'

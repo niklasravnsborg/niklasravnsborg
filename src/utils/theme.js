@@ -10,7 +10,7 @@ const theme = {
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
-    sans: 'Montserrat, sans-serif',
+    sans: 'Kumbh Sans, sans-serif',
   },
   shadows: {
     small: '0 0 4px rgba(0, 0, 0, .125)',
