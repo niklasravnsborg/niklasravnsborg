@@ -13,6 +13,9 @@ export default new Typography({
     p: {
       hyphens: 'auto',
     },
+    'h1, h2, h3, h4, h5, h6': {
+      fontWeight: 'normal',
+    },
     'p a, ul a': {
       borderBottom: '1px solid',
     },
