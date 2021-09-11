@@ -13,7 +13,7 @@ const Layout = ({ title, desc, children, ...props }) => (
   <ThemeProvider theme={theme}>
     <Box {...props}>
       <Helmet
-        defaultTitle="niklasravnsborg Videos"
+        defaultTitle="niklasravnsborg"
         titleTemplate="%s – niklasravnsborg"
         title={title}
         meta={[
