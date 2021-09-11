@@ -23,6 +23,7 @@ const Footer = () => (
         mx="auto"
         css={{ maxWidth: 300, opacity: 0.5 }}
       >
+        <a href="mailto:hey@niklasravnsborg.com">Kontakt</a>
         <Link to="/imprint/">Impressum</Link>
       </Flex>
     </Container>
