@@ -12,9 +12,9 @@ const Imprint = () => (
       <p>
         Niklas Ravnsborg-Gjertsen
         <br />
-        Bülowstraße 3a
+        Weserstraße 148B
         <br />
-        26384 Wilhelmshaven
+        26382 Wilhelmshaven
       </p>
 
       <p>
