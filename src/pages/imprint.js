@@ -12,9 +12,11 @@ const Imprint = () => (
       <p>
         Niklas Ravnsborg-Gjertsen
         <br />
-        Bülowstraße 3a
+        c/o Exposify UG (haftungsbeschränkt)
         <br />
-        26384 Wilhelmshaven
+        Schaarreihe 24G
+        <br />
+        26389 Wilhelmshaven
       </p>
 
       <p>
