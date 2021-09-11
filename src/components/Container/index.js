@@ -6,7 +6,7 @@ const Container = props => (
     mx="auto"
     px="3"
     css={{
-      maxWidth: props.wide ? 1300 : 800
+      maxWidth: props.wide ? 1300 : 900,
     }}
     {...props}
   />
