@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box } from 'rebass'
+import { Box } from 'theme-ui'
 
 const UnderlineLink = props => (
   <Box
-    css={{
+    sx={{
       display: 'inline-block',
       borderBottom: '2px solid black',
       a: { color: 'black' },

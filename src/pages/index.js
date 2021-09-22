@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Flex, Box, Card, Text } from 'rebass'
+import { Flex, Box, Card, Text } from 'theme-ui'
 
 import Layout from '../components/Layout'
 import Container from '../components/Container'
@@ -52,7 +52,7 @@ const IndexPage = () => (
             Arbeit im Internet ein bisschen gebündelt wird.
           </Text>
           <Box>
-            <Flex flexWrap="wrap" m={-2}>
+            <Flex m={-2}>
               <Social
                 href="https://github.com/niklasravnsborg/"
                 color="black"
@@ -90,29 +90,29 @@ const IndexPage = () => (
             stolz:
           </Text>
           <Text mb="3" as="p">
-            <Flex m={-2} flexWrap="wrap" alignItems="stretch">
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+            <Flex m={-2} sx={{ flexWrap: 'wrap', alignItems: 'stretch' }}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <ProjectCard
                   name="Homevoice"
                   tags="DevOps Engineering, System Administration"
                   color="#ff0066"
                 />
               </Box>
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <ProjectCard
                   name="EstateSync"
                   tags="Software Architektur, Kundensupport"
                   color="#303846"
                 />
               </Box>
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <ProjectCard
                   name="Grüncool"
                   tags="Teamkoordination, Eventplanung"
                   color="#648a4a"
                 />
               </Box>
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <ProjectCard
                   name="Kengumedia"
                   tags="Webdesign, Videoproduktion"
@@ -136,8 +136,8 @@ const IndexPage = () => (
             ein paar meiner Lieblinge:
           </Text>
           <Text mb="3" as="p">
-            <Flex m={-2} flexWrap="wrap">
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+            <Flex m={-2} sx={{ flexWrap: 'wrap' }}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <VideoCard
                   id="ahGLK5vp1Mw"
                   name="Marc mag Musik"
@@ -145,7 +145,7 @@ const IndexPage = () => (
                   color="#6ca6a1"
                 />
               </Box>
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <VideoCard
                   id="46GiACqo6MQ"
                   name="Fünf bis Dreizehn"
@@ -153,7 +153,7 @@ const IndexPage = () => (
                   color="#98281a"
                 />
               </Box>
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <VideoCard
                   id="JsLIhJGyEtY"
                   name="Wir sind Macher"
@@ -161,7 +161,7 @@ const IndexPage = () => (
                   color="#E1A454"
                 />
               </Box>
-              <Box width={[1 / 2, null, 1 / 4]} p={2}>
+              <Box p={2} sx={{ width: ['50%', null, '25%'] }}>
                 <VideoCard
                   id="SJ-rG8AvLrY"
                   name="Winterwildflecken"

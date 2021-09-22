@@ -1,12 +1,13 @@
 import React from 'react'
-import { Box } from 'rebass'
+import { Box } from 'theme-ui'
 
-const Container = props => (
+const Container = ({ sx, ...props }) => (
   <Box
     mx="auto"
     px="3"
-    css={{
+    sx={{
       maxWidth: props.wide ? 1300 : 900,
+      ...sx,
     }}
     {...props}
   />

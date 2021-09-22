@@ -1,6 +1,12 @@
 module.exports = {
   plugins: [
     `gatsby-plugin-emotion`,
+    {
+      resolve: `gatsby-plugin-theme-ui`,
+      options: {
+        preset: '@theme-ui/preset-funk',
+      },
+    },
     `gatsby-plugin-react-helmet`,
     'gatsby-transformer-yaml',
     `gatsby-plugin-netlify`,
