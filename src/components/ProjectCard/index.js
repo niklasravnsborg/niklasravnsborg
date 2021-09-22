@@ -1,25 +1,14 @@
 import React from 'react'
-import { Box, Card, Text } from 'rebass'
+import { Box, Card, Text } from 'theme-ui'
 
-const Ellipsis = props => (
-  <Text
-    css={{
-      whiteSpace: 'nowrap',
-      overflow: 'hidden',
-      textOverflow: 'ellipsis',
-    }}
-    {...props}
-  />
-)
+import Ellipsis from '../Ellipsis'
 
 export default ({ href, color, name, tags, bright }) => (
   <a href={href} target="_blank" rel="noreferrer">
     <Card p={3} bg={color} height="100%">
       <Box color={bright && 'dark'}>
-        <Ellipsis fontWeight="500" title={name}>
-          {name}
-        </Ellipsis>
-        <Text fontSize=".7em" fontStyle="italic" opacity=".6">
+        <Ellipsis sx={{ fontWeight: '500' }}>{name}</Ellipsis>
+        <Text sx={{ fontSize: '.7em', fontStyle: 'italic', opacity: '.6' }}>
           {tags}
         </Text>
       </Box>

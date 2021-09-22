@@ -25,8 +25,8 @@ const theme = {
       boxShadow: 'inset 0 0 0 2px black',
     },
   },
-  variants: {
-    card: {
+  cards: {
+    primary: {
       boxShadow: 'large',
       borderRadius: 10,
       color: 'white',

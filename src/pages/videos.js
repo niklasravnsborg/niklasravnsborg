@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Flex, Box } from 'rebass'
+import { Grid, Box } from 'theme-ui'
 
 import Layout from '../components/Layout'
 import Container from '../components/Container'
@@ -10,13 +10,13 @@ const VideosPage = ({ data }) => (
   <Layout>
     <Box>
       <Container>
-        <Flex flexWrap="wrap" m={[-2, null, -3]}>
+        <Grid m={[-2, null, -3]} columns={[1, 2]} gap="1">
           {data.contentYaml.videos.map(props => (
-            <Box width={[1, 1 / 2]} p={[2, null, 3]} key={props.id}>
+            <Box p={[2, null, 3]} key={props.id}>
               <VideoCard {...props} />
             </Box>
           ))}
-        </Flex>
+        </Grid>
       </Container>
     </Box>
   </Layout>

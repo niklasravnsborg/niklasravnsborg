@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Flex, Box } from 'rebass'
+import { Flex, Box } from 'theme-ui'
 
 import Container from '../Container'
 
@@ -9,19 +9,23 @@ const Footer = () => (
     as="footer"
     py={4}
     px={3}
-    css={theme => ({
+    sx={{
       a: {
         color: 'inherit',
-        borderBottom: `1px solid ${theme.colors.dark}`,
+        borderBottom: `1px solid`,
+        borderColor: 'dark',
       },
-    })}
+    }}
   >
     <Container mt="3">
       <Flex
-        flexWrap="wrap"
-        justifyContent="space-around"
         mx="auto"
-        css={{ maxWidth: 300, opacity: 0.5 }}
+        sx={{
+          flexWrap: 'wrap',
+          justifyContent: 'space-around',
+          maxWidth: 300,
+          opacity: 0.5,
+        }}
       >
         <a href="mailto:hey@niklasravnsborg.com">Kontakt</a>
         <Link to="/imprint/">Impressum</Link>
