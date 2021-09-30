@@ -6,7 +6,7 @@ const Container = ({ sx, ...props }) => (
     mx="auto"
     px="3"
     sx={{
-      maxWidth: props.wide ? 1300 : 900,
+      maxWidth: props.wide ? 1250 : 900,
       ...sx,
     }}
     {...props}
