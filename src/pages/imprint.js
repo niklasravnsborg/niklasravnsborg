@@ -4,7 +4,7 @@ import Container from '../components/Container'
 
 const Imprint = () => (
   <Layout>
-    <Container mt={100}>
+    <Container>
       <h1>Impressum</h1>
 
       <b>Anbieter i.S.d. TMG</b>

@@ -23,7 +23,7 @@ const Footer = () => (
         sx={{
           flexWrap: 'wrap',
           justifyContent: 'space-around',
-          maxWidth: 300,
+          maxWidth: 250,
           opacity: 0.5,
         }}
       >

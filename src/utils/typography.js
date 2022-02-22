@@ -8,7 +8,7 @@ export default new Typography({
   overrideStyles: _ => ({
     body: {
       overflowX: 'hidden',
-      backgroundColor: '#eee',
+      backgroundColor: 'white',
     },
     p: {
       hyphens: 'auto',

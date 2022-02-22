@@ -3,7 +3,7 @@ import { Box, Card, Text, AspectImage } from 'theme-ui'
 
 import Ellipsis from '../Ellipsis'
 
-export default ({ id, color, name, date, bright }) => (
+const VideoCard = ({ id, color, name, date, bright }) => (
   <a href={`https://youtu.be/${id}`} target="_blank" rel="noreferrer">
     <Card p={3} bg={color}>
       <AspectImage
@@ -20,3 +20,5 @@ export default ({ id, color, name, date, bright }) => (
     </Card>
   </a>
 )
+
+export default VideoCard

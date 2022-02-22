@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import { Box, Flex } from 'theme-ui'
+import { Box, Flex, Link } from 'theme-ui'
 import {
   IoLogoGithub,
   IoLogoInstagram,
