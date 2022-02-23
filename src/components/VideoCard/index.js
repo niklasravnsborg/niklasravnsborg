@@ -3,12 +3,12 @@ import { Box, Card, Text, AspectImage } from 'theme-ui'
 
 import Ellipsis from '../Ellipsis'
 
-const VideoCard = ({ id, color, name, date, bright }) => (
-  <a href={`https://youtu.be/${id}`} target="_blank" rel="noreferrer">
+const VideoCard = ({ youtubeId, color, name, date, bright }) => (
+  <a href={`https://youtu.be/${youtubeId}`} target="_blank" rel="noreferrer">
     <Card p={3} bg={color}>
       <AspectImage
         ratio={16 / 9}
-        src={`https://img.youtube.com/vi/${id}/maxresdefault.jpg?fo2`}
+        src={`https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg?fo2`}
         alt={name}
       />
       <Box mt="3" color={bright && 'dark'}>

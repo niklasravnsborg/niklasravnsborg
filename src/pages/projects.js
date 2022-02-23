@@ -18,8 +18,8 @@ const VideosPage = ({ data }) => (
           Projekte, an denen ich mitgewirken durfte:
         </Paragraph>
         <Grid m={[-2, null, -3]} columns={[1, 2]} gap="1">
-          {data.contentYaml.videos.map(props => (
-            <Box p={[2, null, 3]} key={props.id}>
+          {data.allVideosYaml.nodes.map(props => (
+            <Box p={[2, null, 3]} key={props.youtubeId}>
               <VideoCard {...props} />
             </Box>
           ))}
@@ -33,10 +33,10 @@ export default VideosPage
 
 export const query = graphql`
   query {
-    contentYaml {
-      videos {
+    allVideosYaml(filter: { hide: { ne: true } }) {
+      nodes {
         name
-        id
+        youtubeId
         date
         color
         bright
