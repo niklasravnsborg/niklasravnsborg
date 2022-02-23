@@ -35,10 +35,10 @@ const Header = () => (
 
 const IndexPage = () => (
   <Layout>
-    <Container mb="4">
+    <Container mb={4}>
       <Header />
     </Container>
-    <Container mb="6">
+    <Container mb={[4, 6]}>
       <Socials />
     </Container>
   </Layout>

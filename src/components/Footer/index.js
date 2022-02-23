@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Flex, Box } from 'theme-ui'
 
 import Container from '../Container'
+import Link from '../Link'
 
 const Footer = () => (
   <Box
     as="footer"
     py={4}
-    px={3}
+    my={3}
     sx={{
       a: {
         color: 'inherit',
@@ -17,18 +17,21 @@ const Footer = () => (
       },
     }}
   >
-    <Container mt="3">
+    <Container>
       <Flex
-        mx="auto"
         sx={{
           flexWrap: 'wrap',
-          justifyContent: 'space-around',
-          maxWidth: 250,
+          justifyContent: 'center',
           opacity: 0.5,
         }}
+        mx={-3}
       >
-        <a href="mailto:hey@niklasravnsborg.com">Kontakt</a>
-        <Link to="/imprint/">Impressum</Link>
+        <Box px={3}>
+          <Link to="mailto:hey@niklasravnsborg.com">Kontakt</Link>
+        </Box>
+        <Box px={3}>
+          <Link to="/imprint/">Impressum</Link>
+        </Box>
       </Flex>
     </Container>
   </Box>
