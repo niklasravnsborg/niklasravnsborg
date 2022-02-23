@@ -1,205 +1,233 @@
 - name: "MARC MAG MUSIK"
   youtubeId: cCOd_J2LLaQ
-  date: 19. September 2021
+  date: Juni 2021
   color: "#3c9890"
 
 - name: "AUF DEM WEG ZU DIR - Unplugged Version"
   youtubeId: clDbb-oWVPg
-  date: 9. Mai 2021
+  date: Mai 2021
   color: "#9bb461"
 
 - name: "WIE TIEF KANN MAN SEHN [Paula Cover]"
   youtubeId: hm4M9tyISqw
-  date: 9. März 2021
+  date: März 2021
   color: "#7d3638"
 
 - name: "LASS MA' NACHHALTIG [Videowettbewerb]"
-  date: 21. Februar 2019
+  date: Februar 2019
   youtubeId: wKvgh36-Dgw
   color: "#163b12"
 
 - name: "TAUFE AM SÜDSTRAND - Nordrichten"
   youtubeId: PB9BA6gFwf8
-  date: 22. September 2017
+  date: September 2017
   color: "#7c94af"
   hide: true
 
 - name: "EINFACH EASY - Exposify Spot"
-  date: 11. August 2017
+  date: August 2017
   youtubeId: scTYqAYEfh4
   color: "#ffffff"
   bright: true
 
 - name: "LECKERLIES - Kleintierpraxis im Hain Spot"
-  date: 15. Juli 2017
+  date: Juli 2017
   youtubeId: f3oFNPFPLs0
   color: "#736962"
 
 - name: "FÜNF BIS DREIZEHN - Abschlussvideo"
   youtubeId: 46GiACqo6MQ
-  date: 27. Juni 2017
+  date: Juni 2017
   color: "#98281a"
 
 - name: "WIR SIND MACHER - Der Advent wird lit"
   youtubeId: JsLIhJGyEtY
-  date: 18. Dezember 2016
+  date: Dezember 2016
   color: "#E1A454"
 
 - name: "WILHELMSHAVENER WEIHNACHTSMARKT 2016"
   youtubeId: HBv5PJW6-KM
-  date: 5. Dezember 2016
+  date: Dezember 2016
   color: "#CE2012"
 
 - name: "IRGENDWOHIN - Pausenfüller"
   youtubeId: Iu61Ioob5TA
-  date: 3. November 2016
+  date: November 2016
   color: "#b65c52"
 
 - name: "Wie soll ein Mensch [Michel Theilen Cover]"
   youtubeId: kT13_b0hUGo
-  date: 8. Oktober 2016
+  date: Oktober 2016
   color: "#AF2C52"
 
 - name: "Use Somebody [Michel Theilen Cover]"
   youtubeId: G12bC0vOJ8w
-  date: 8. Oktober 2016
+  date: Oktober 2016
   color: "#713b28"
 
 - name: "NDR2 Open Air Festival Wilhelmshaven 2016"
   youtubeId: DptEveR-l-U
-  date: 29. Juli 2016
+  date: Juli 2016
   color: "#99282E"
 
 - name: "CARPE DIEM – Cardie [Official Video]"
   youtubeId: ZIyc575webA
-  date: 29. Mai 2016
+  date: Mai 2016
   color: "#404A4E"
   hide: true
 
 - name: "PASSIONSPUNKTE 2016 - Nordrichten"
   youtubeId: 8if0SlIVsU4
-  date: 3. Mai 2016
+  date: Mai 2016
   color: "#BF6E4A"
 
 - name: "KIWANIS POETRY SLAM 2016 - Nordrichten"
   youtubeId: U7KK_Eh-If8
-  date: 5. März 2016
+  date: März 2016
   color: "#5E8098"
 
 - name: "GOSPECIAL UNTER VOLLDAMPF - Nordrichten"
   youtubeId: 0wT5hF_aplE
-  date: 29. Februar 2016
+  date: Februar 2016
   color: "#587341"
+
+- name: "IMPERIALISMUS & INDUSTRIEALISIERUNG (Schulvideo)"
+  youtubeId: XMSCv6fR-q8
+  date: Anfang 2016
+  color: "#d48848"
+
+- name: "BOSTON TEA PARTY & SKLAVENHANDEL (Schulvideo)"
+  youtubeId: h1O4MLMeAeY
+  date: November 2015
+  color: "#696fa2"
 
 - name: "STRINGS AND BOOM - Nordrichten"
   youtubeId: EdfWGwOmf7I
-  date: 30. November 2015
+  date: November 2015
   color: "#645D80"
 
 - name: "Taufe am Südstrand in Wilhelmshaven"
   youtubeId: B_RoZHGa7sc
-  date: 17. September 2015
+  date: September 2015
   color: "#A92C30"
 
 - name: "WILDFLECKEN KiC 2015 - Nordrichten"
   youtubeId: 0LS8EoQvFVw
-  date: 11. August 2015
+  date: August 2015
   color: "#406B9E"
 
 - name: "WOCHENENDE AN DER JADE 2015 - Nordrichten"
   youtubeId: XU7tN9tzcOU
-  date: 12. Juli 2015
+  date: Juli 2015
   color: "#CC4450"
+
+- name: "AN INTERVIEW WITH CANCER (Schulvideo)"
+  youtubeId: 4hatpV_dEIc
+  date: Juni 2015
+  color: "#dcd621"
+  light: true
 
 - name: "KIWANIS POETRY SLAM 2015 - Nordrichten"
   youtubeId: dMpBX3-0_qY
-  date: 17. März 2015
+  date: März 2015
   color: "#EA9D5C"
 
 - name: "DIE MUTMACHERIN: Das Leben ist schön - Buchtrailer"
   youtubeId: ON0AlByRd_k
-  date: 17. Februar 2015
+  date: Februar 2015
   color: "#549279"
 
 - name: "WINTERWILDFLECKEN 2015 - Nordrichten"
   youtubeId: SJ-rG8AvLrY
-  date: 8. Februar 2015
+  date: Februar 2015
   color: "#FDFDFD"
   bright: true
 
 - name: "MAKING OF GOIN' HIGH - Kengumedia"
   youtubeId: GlbZRaQEdc8
-  date: 25. Januar 2015
+  date: Januar 2015
   color: "#DFB551"
 
 - name: "GOIN' HIGH - Masterminders - Music Video by Kengumedia"
   youtubeId: HRt18GqfyZQ
-  date: 28. Dezember 2014
+  date: Dezember 2014
   color: "#FDFDFD"
   bright: true
 
+- name: "KONSUM UND GELD (Schulvideo)"
+  youtubeId: My99t6_qxdY
+  date: November 2014
+  color: "#8a3939"
+
 - name: "HOLI WILHELMSHAVEN 2014 - Nordrichten"
   youtubeId: Zr0rAqCfLaI
-  date: 4. August 2014
+  date: August 2014
   color: "#4A4C54"
 
 - name: "WOCHENENDE AN DER JADE 2014"
   youtubeId: UGBCtBIzJpA
-  date: 7. Juli 2014
+  date: Juli 2014
   color: "#518C50"
 
 - name: "PUBLIC VIEWING IN WILHELMSHAVEN – WM 2014"
   youtubeId: BU3pN4oPUr8
-  date: 23. Juni 2014
+  date: Juni 2014
   color: "#518C50"
+
 - name: "WILHELMSHAVEN GEGEN GEWALT 2014"
   youtubeId: 9fT7vjHghTI
-  date: 31. Mai 2014
+  date: Mai 2014
   color: "#518C50"
+
 - name: "SCHLICKTOWNSLAM 2014 - Poetry Slam"
   youtubeId: LzHmeadynYc
-  date: 26. Mai 2014
+  date: Mai 2014
   color: "#518C50"
+
+- name: "JAHRGANGSVORSTELLUNG (Schulvideo)"
+  youtubeId: H6MlWEzeBiA
+  date: März 2014
+  color: "#478d94"
 
 - name: "WIE GEHT ES WEITER? - Topbotschafter Josch"
   youtubeId: VVpy8Z7wa6Q
-  date: 14. April 2014
+  date: April 2014
   color: "#44A1EF"
   hide: true
 
 - name: "DANKE! mit ALEXIBEXI - Topbotschafter Josch"
   youtubeId: P_LfsT5x5w8
-  date: 24. Dezember 2013
+  date: Dezember 2013
   color: "#44A1EF"
   hide: true
 
 - name: "GEWONNEN! - Topbotschafter Josch"
   youtubeId: _1P_18Gv7kk
-  date: 19. Dezember 2013
+  date: Dezember 2013
   color: "#44A1EF"
 
 - name: "MAKING OF - Topbotschafter Josch"
   youtubeId: FR7j9kgI_yY
-  date: 1. November 2013
+  date: November 2013
   color: "#44A1EF"
 
 - name: "DRUMMER JOSCH - Topbotschafter Josch"
   youtubeId: i_vPiS4ZxyY
-  date: 2. Oktober 2013
+  date: Oktober 2013
   color: "#44A1EF"
   hide: true
 
 - name: "STIPENDIUM FÜR JOSCH - Topbotschafter Josch"
   youtubeId: sO8SwbzBahQ
-  date: 11. September 2013
+  date: September 2013
   color: "#44A1EF"
 
 - name: "ZWEI GRUNDSÄTZE - DIE WELLE (Schulfilm 9. Klasse)"
   youtubeId: pVfs1AST0cw
-  date: 12. Juni 2013
+  date: Juni 2013
   color: "#A05A53"
 
 - name: "WAS IST EINE INFLATION? (Erkärfilm)"
   youtubeId: m1vvM-5SrkE
-  date: 15. April 2013
+  date: April 2013
   color: "#83AB54"
