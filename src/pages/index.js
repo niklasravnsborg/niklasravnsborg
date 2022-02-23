@@ -25,10 +25,10 @@ const Header = () => (
         boxShadow: `0 0 0 5px ${theme.colors.dark}`,
       }}
     >
-      Hej, ich bin DevOps Engineer und Software Entrepreneur. Zur Zeit arbeite
-      ich an Homevoice und EstateSync. Mich beschäftigt die Frage wie wir unsere
-      Karrieren transformieren können, um den Klimawandel zu stoppen. Außerdem
-      hab ich Spaß an Video- und Musikproduktion.
+      Hej, ich bin DevOps Engineer und Software Entrepreneur. Zurzeit arbeite
+      ich an Homevoice und EstateSync. Mich beschäftigt die Frage, wie wir
+      unsere Karrieren transformieren können, um den Klimawandel zu stoppen.
+      Außerdem hab ich Spaß an Video- und Musikproduktion.
     </Text>
   </Box>
 )

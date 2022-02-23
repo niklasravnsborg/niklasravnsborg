@@ -14,6 +14,7 @@ const theme = {
   fonts: {
     sans: 'Kumbh Sans, sans-serif',
     heading: 'Kumbh Sans, sans-serif',
+    body: 'Kumbh Sans, sans-serif',
   },
   shadows: {
     small: '0 0 4px rgba(0, 0, 0, .125)',
