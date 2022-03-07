@@ -22,7 +22,7 @@ const Imprint = () => (
       <p>
         <b>Kontakt</b>
         <br />
-        Mail-Adresse: hey@niklasravnsborg.com
+        Mail-Adresse: hej@niklasravnsborg.com
       </p>
     </Container>
   </Layout>

@@ -27,7 +27,7 @@ const Footer = () => (
         mx={-3}
       >
         <Box px={3}>
-          <Link to="mailto:hey@niklasravnsborg.com">Kontakt</Link>
+          <Link to="mailto:hej@niklasravnsborg.com">Kontakt</Link>
         </Box>
         <Box px={3}>
           <Link to="/imprint/">Impressum</Link>
