@@ -1,5 +1,6 @@
 import Typography from 'typography'
 
+// TODO: Use theme-ui typography package
 export default new Typography({
   baseFontSize: '18px',
   headerFontFamily: ['Kumbh Sans', 'sans-serif'],

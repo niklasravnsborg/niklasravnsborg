@@ -1,9 +1,8 @@
 import React from 'react'
-import { Box, Flex, Text } from 'theme-ui'
+import { Box, Flex, Text, Button } from 'theme-ui'
 import { Link as GatsbyLink } from 'gatsby'
 
 import Container from '../Container'
-import Button from '../Button'
 import { lighten, transparentize } from 'polished'
 
 const HeaderLink = ({ to, color, ...props }) => {
@@ -14,9 +13,8 @@ const HeaderLink = ({ to, color, ...props }) => {
         children: (
           <Button
             px={[4, 3, 4]}
-            pt="10px"
-            pb="8px"
-            sx={{ cursor: 'pointer' }}
+            variant="header"
+            sx={{ cursor: 'pointer' }} // TODO: refactor this by not wrapping a button in a link
             bg={isCurrent && transparentize(0.9, lighten(0.2, color))}
             color={isCurrent && color}
             {...props}

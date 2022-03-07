@@ -1,8 +1,10 @@
 import React from 'react'
-import { Box, Heading } from 'theme-ui'
+import { Box, Heading, Button } from 'theme-ui'
 import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
+import Link from '../components/Link'
+import { HiOutlineExternalLink } from 'react-icons/hi'
 
 const experiences = [
   {
@@ -16,6 +18,7 @@ EstateSync ist eine API für das einfache Inserieren auf Immobilienportalen und 
 - Erstellung einer dynamisch skalierenden Serverless-Architektur mit diversen Microservices
 - Einrichtung von Infrastructure as Code via Pulumi
 `,
+    link: 'https://estatesync.com',
   },
   {
     title: 'DevOps Engineer, Homevoice',
@@ -28,6 +31,7 @@ Homevoice ist die moderne Hausverwaltungssoftware. Wir digitalisieren und versch
 - Mitentwicklung an Frontend (React + Next.js) und Backend (Java + Spring)
 - IT-Administration für 18 Personen (SysOps)
 `,
+    link: 'https://homevoice.io',
   },
   {
     title: 'Fullstack Engineer, Exposify',
@@ -59,6 +63,22 @@ const ExperiencePage = () => (
           <Heading mb={2}>{experience.title}</Heading>
           <Box mb={3}>{experience.time}</Box>
           <ReactMarkdown>{experience.description}</ReactMarkdown>
+          {experience.link && (
+            <Link to={experience.link} target="_blank">
+              <Button
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  cursor: 'pointer', // TODO: refactor this by not wrapping a button in a link
+                }}
+              >
+                Produkt-Website
+                <HiOutlineExternalLink
+                  css={{ marginTop: '-4px', marginLeft: '5px' }}
+                />
+              </Button>
+            </Link>
+          )}
         </Box>
       ))}
     </Container>

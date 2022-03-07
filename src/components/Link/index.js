@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link as ThemeUILink } from 'theme-ui'
 import { Link as GatsbyLink } from 'gatsby'
 
 const Link = ({ to, ...props }) => {
@@ -8,7 +7,7 @@ const Link = ({ to, ...props }) => {
   return isInternal ? (
     <GatsbyLink to={to} {...props} />
   ) : (
-    <ThemeUILink href={to} {...props} />
+    <a href={to} {...props} />
   )
 }
 

@@ -1,3 +1,9 @@
+const buttonStyles = {
+  paddingTop: 10,
+  paddingBottom: 8,
+  borderRadius: 10,
+}
+
 const theme = {
   breakpoints: ['40em', '52em', '64em'],
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
@@ -22,16 +28,16 @@ const theme = {
   },
   buttons: {
     primary: {
+      ...buttonStyles,
+      color: 'dark',
+      border: '1px solid',
+      borderColor: 'dark',
+    },
+    header: {
+      ...buttonStyles,
       backgroundColor: 'transparent',
       color: 'gray',
-      borderRadius: 10,
       fontWeight: 'bold',
-    },
-    outline: {
-      color: 'black',
-      backgroundColor: 'transparent',
-      borderRadius: 0,
-      boxShadow: 'inset 0 0 0 2px black',
     },
   },
   cards: {
