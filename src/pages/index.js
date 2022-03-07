@@ -10,7 +10,7 @@ import niklas from '../images/niklas.jpg'
 
 const Header = () => (
   <Box>
-    <Avatar mb={3} src={niklas} />
+    <Avatar size={90} mb={3} src={niklas} sx={{ display: 'block' }} />
     <Text
       mb="3"
       as="h1"

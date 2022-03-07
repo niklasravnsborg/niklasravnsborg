@@ -48,14 +48,6 @@ const theme = {
       backgroundColor: 'dark',
     },
   },
-  images: {
-    avatar: {
-      display: 'block',
-      width: 80,
-      height: 80,
-      borderRadius: 99999,
-    },
-  },
 }
 
 export default theme
