@@ -56,7 +56,7 @@ Exposify war eine benutzerfreundliche Maklersoftware für mittelständige Immobi
 ]
 
 const ExperiencePage = () => (
-  <Layout>
+  <Layout title="Erfahrung">
     <Container my={-4}>
       {experiences.map(experience => (
         <Box py={4} key={experience.title}>

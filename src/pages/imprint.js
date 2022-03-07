@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import Container from '../components/Container'
 
 const Imprint = () => (
-  <Layout>
+  <Layout title="Impressum">
     <Container>
       <h1>Impressum</h1>
 

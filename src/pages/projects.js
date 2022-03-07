@@ -7,7 +7,7 @@ import Container from '../components/Container'
 import VideoCard from '../components/VideoCard'
 
 const VideosPage = ({ data }) => (
-  <Layout>
+  <Layout title="Videoprojekte">
     <Box>
       <Container>
         <Heading mb={3}>Videoprojekte</Heading>

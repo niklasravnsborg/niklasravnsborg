@@ -9,8 +9,8 @@ import Footer from '../Footer'
 const Layout = ({ title, desc, children, ...props }) => (
   <Box {...props}>
     <Helmet
-      defaultTitle="niklasravnsborg"
-      titleTemplate="%s – niklasravnsborg"
+      defaultTitle="niklas ravnsborg"
+      titleTemplate="%s – niklas ravnsborg"
       title={title}
       meta={[
         { name: 'description', content: desc },

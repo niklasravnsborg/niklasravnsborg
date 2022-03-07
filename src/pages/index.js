@@ -34,7 +34,7 @@ const Header = () => (
 )
 
 const IndexPage = () => (
-  <Layout>
+  <Layout title="Über mich">
     <Container mb={4}>
       <Header />
     </Container>
