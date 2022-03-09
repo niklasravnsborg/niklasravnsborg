@@ -15,8 +15,8 @@ EstateSync ist eine API für das einfache Inserieren auf Immobilienportalen und 
 
 - Konzeption und Dokumentation der RESTful API
 - Testbasierte Entwicklung (TDD) in TypeScript + NestJS, PHP, Go
-- Erstellung einer dynamisch skalierenden Serverless-Architektur mit diversen Microservices
-- Einrichtung von Infrastructure as Code via Pulumi
+- Dynamisch skalierenden Serverless-Architektur mit diversen Microservices
+- Infrastructure as Code via Pulumi
 `,
     link: 'https://estatesync.com',
   },
@@ -27,7 +27,7 @@ EstateSync ist eine API für das einfache Inserieren auf Immobilienportalen und 
 Homevoice ist die moderne Hausverwaltungssoftware. Wir digitalisieren und verschlanken Prozesse, um den Arbeitsalltag auf ein neues Level zu heben. Neben dem Software-Betrieb kümmere ich mich u.a. um interne Dokumentation, Datenschutz und andere teamkulturelle Themen.
 
 - Deployment diverser GCP-Services (u.a. App Engine, Pub/Sub, Cloud Tasks)
-- Bau und Verwaltung automatisierter Pipelines via GitHub Actions (Continous integration)
+- Verwaltung automatisierter Pipelines via GitHub Actions (Continous integration)
 - Mitentwicklung an Frontend (React + Next.js) und Backend (Java + Spring)
 - IT-Administration für 18 Personen (SysOps)
 `,
