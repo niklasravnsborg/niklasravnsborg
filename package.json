@@ -19,6 +19,7 @@
     "gatsby-plugin-emotion": "^7.7.0",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-netlify": "^4.1.0",
+    "gatsby-plugin-plausible": "^0.0.7",
     "gatsby-plugin-react-helmet": "^5.7.0",
     "gatsby-plugin-sharp": "^4.7.0",
     "gatsby-plugin-theme-ui": "^0.13.1",
