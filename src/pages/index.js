@@ -23,6 +23,7 @@ const Header = () => (
         display: 'inline',
         background: theme.colors.dark,
         boxShadow: `0 0 0 5px ${theme.colors.dark}`,
+        boxDecorationBreak: 'clone',
       }}
     >
       Hej, ich bin DevOps Engineer und Software Entrepreneur. Zurzeit arbeite
