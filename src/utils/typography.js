@@ -17,7 +17,7 @@ export default new Typography({
     'h1, h2, h3, h4, h5, h6': {
       fontWeight: 'normal',
     },
-    'p a, ul a': {
+    'p a, ul a, ol a': {
       borderBottom: '1px solid',
     },
     a: {
@@ -35,6 +35,10 @@ export default new Typography({
     },
     'img, svg': {
       verticalAlign: 'middle',
+    },
+    // markdown remark footnote link
+    '.footnote-backref': {
+      marginLeft: '.5em',
     },
   }),
 })

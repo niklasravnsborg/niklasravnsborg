@@ -23,13 +23,13 @@ module.exports = {
     //     name: `images`
     //   }
     // },
-    // {
-    //   resolve: 'gatsby-source-filesystem',
-    //   options: {
-    //     path: `${__dirname}/src/pages`,
-    //     name: 'pages'
-    //   }
-    // },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/posts`,
+        name: 'posts',
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     {

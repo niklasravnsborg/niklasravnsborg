@@ -13,6 +13,7 @@ const theme = {
     accent: '#ffe51f',
     lightgray: '#f6f6ff',
     dark: '#162135',
+    green: '#33b733',
     blue: '#2A73FF',
     orange: '#ffa326',
   },
