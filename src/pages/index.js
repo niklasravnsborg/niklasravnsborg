@@ -19,7 +19,7 @@ const Header = () => (
       color="white"
       sx={{
         fontWeight: 'bold',
-        fontSize: 26,
+        fontSize: [20, 26],
         lineHeight: 1.6,
         textAlign: 'center',
         display: 'inline',
