@@ -7,7 +7,7 @@ Damit unsere Gesellschaft klimaneutral funktionieren kann, benötigen wir den ma
 
 Auf das Buch möchte ich mich in diesem Artikel im Wesentlichen beziehen und dessen Kernaussagen zusammenfassen. Dabei wird von einem zukünftigen Endenergiebedarf von 85 Kilowattstunden (kWh) pro Person und Tag ausgegangen – so als wenn unser Endenergiebedarf ähnlich bleibt wie er heute ist. Die Autoren beziehen wesentliche Merkmale wie Platzbedarf, Effizienz und Technologiereife ein, um abzuschätzen, welche Träger unseren Energiebedarf in Zukunft decken können.
 
-Wenn wir über erneuerbare Energien sprechen, ist es wichtig unseren gesamten Energiebedarf zu betrachten – es geht nicht nur um Strom, sondern auch um Wärme zum Heizen (Erdöl, Gas, Pellets) und Kraftstoff für die Mobilität(Benzin, Diesel). Der deutsche Strommix besteht zwar schon zu fast 46 Prozent aus erneuerbaren Energien [^1], auf unseren Gesamtenergiebedarf bezogen sind es allerdings gerade einmal 15 Prozent.
+Wenn wir über erneuerbare Energien sprechen, ist es wichtig unseren gesamten Energiebedarf zu betrachten – es geht nicht nur um Strom, sondern auch um Wärme zum Heizen (Erdöl, Gas, Pellets) und Kraftstoff für die Mobilität (Benzin, Diesel). Der deutsche Strommix besteht zwar schon zu fast 46 Prozent aus erneuerbaren Energien [^1], auf unseren Gesamtenergiebedarf bezogen sind es allerdings gerade einmal 15 Prozent.
 
 ## Geothermie
 
