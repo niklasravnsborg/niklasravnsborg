@@ -24,6 +24,7 @@ const BlogPostTemplate = ({ data }) => {
               href={`mailto:hej@niklasravnsborg.com?subject=Feedback zu "${post.frontmatter.title}"`}
               target="_blank"
               rel="noreferrer"
+              aria-label="Mail an hej@niklasravnsborg.com"
               children="Schreib mir eine Antwort"
             />
           </UnderlineLink>
