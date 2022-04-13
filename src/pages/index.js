@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => (
     <Container mb={[4, 5]}>
       <Socials />
     </Container>
-    <Container mb={[4, 5]}>
+    <Container mb={[4, 5, 6]}>
       {/* <Heading mb={3}>Writing</Heading> */}
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Link to={node.fields.slug} key={node.id}>
