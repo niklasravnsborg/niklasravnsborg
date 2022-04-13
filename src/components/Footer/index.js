@@ -1,5 +1,6 @@
 import React from 'react'
-import { Flex, Box } from 'theme-ui'
+import { Flex, Box, Image } from 'theme-ui'
+import lotus from '../../images/lotus.svg'
 
 import Container from '../Container'
 import Link from '../Link'
@@ -7,8 +8,7 @@ import Link from '../Link'
 const Footer = () => (
   <Box
     as="footer"
-    py={4}
-    my={3}
+    my={5}
     sx={{
       a: {
         color: 'inherit',
@@ -19,19 +19,41 @@ const Footer = () => (
   >
     <Container>
       <Flex
+        mb={2}
         sx={{
-          flexWrap: 'wrap',
-          justifyContent: 'center',
+          justifyContent: ['left', 'center'],
           opacity: 0.5,
         }}
-        mx={-3}
       >
-        <Box px={3}>
-          <Link to="mailto:hej@niklasravnsborg.com">Kontakt</Link>
+        Diese Website trackt Dich nicht und kommt ohne Cookies aus.
+      </Flex>
+      <Flex
+        sx={{
+          flexWrap: 'wrap',
+          justifyContent: ['left', 'center'],
+          opacity: 0.5,
+        }}
+        mx={-2}
+      >
+        <Box px={2}>
+          <Link to="/">start</Link>
         </Box>
-        <Box px={3}>
-          <Link to="/imprint/">Impressum</Link>
+        <Box px={2}>
+          <Link to="mailto:hej@niklasravnsborg.com">mail</Link>
         </Box>
+        <Box px={2}>
+          <Link to="/imprint/">impressum</Link>
+        </Box>
+      </Flex>
+      <Flex mt={5}>
+        <Image
+          src={lotus}
+          sx={{
+            maxWidth: 60,
+            margin: '0 auto',
+            opacity: 0.3,
+          }}
+        />
       </Flex>
     </Container>
   </Box>
