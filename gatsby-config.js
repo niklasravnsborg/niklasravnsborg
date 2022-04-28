@@ -53,6 +53,7 @@ module.exports = {
         domain: `niklasravnsborg.com`,
       },
     },
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sitemap`,
   ],
 }
