@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://niklasravnsborg.com`,
+  },
   plugins: [
     `gatsby-plugin-emotion`,
     {
@@ -50,5 +53,6 @@ module.exports = {
         domain: `niklasravnsborg.com`,
       },
     },
+    `gatsby-plugin-sitemap`,
   ],
 }
