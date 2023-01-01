@@ -22,7 +22,7 @@ EstateSync ist eine API für das einfache Inserieren auf Immobilienportalen und 
   },
   {
     title: 'DevOps Engineer, Homevoice',
-    time: 'seit 2019',
+    time: '2019 - 2022',
     description: `
 Homevoice ist die moderne Hausverwaltungssoftware. Wir digitalisieren und verschlanken Prozesse, um den Arbeitsalltag auf ein neues Level zu heben. Neben dem Software-Betrieb kümmere ich mich u.a. um interne Dokumentation, Datenschutz und andere teamkulturelle Themen.
 

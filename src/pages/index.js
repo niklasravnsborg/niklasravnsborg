@@ -29,7 +29,7 @@ const Header = () => (
       }}
     >
       Hej, ich bin DevOps Engineer und Software Entrepreneur. Zurzeit arbeite
-      ich an Homevoice und EstateSync. Mich beschäftigt die Frage, wie wir
+      ich an Plan3t und EstateSync. Mich beschäftigt die Frage, wie wir
       unsere Karrieren transformieren können, um den Klimawandel zu stoppen.
       Außerdem hab ich Spaß an Video- und Musikproduktion.
     </Text>
