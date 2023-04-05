@@ -8,7 +8,7 @@ import { HiOutlineExternalLink } from 'react-icons/hi'
 
 const experiences = [
   {
-    title: 'Software Entrepreneur, EstateSync',
+    title: 'Co-Founder, EstateSync',
     time: 'seit 2020',
     description: `
 EstateSync ist eine API für das einfache Inserieren auf Immobilienportalen und das Empfangen von Kontaktanfragen. Dadurch vereinfachen wir Immobiliensoftware-Unternehmen den Markteinstieg deutlich. Das Unternehmen hinter EstateSync habe ich zusammen mit Richard Keil gegründet.
