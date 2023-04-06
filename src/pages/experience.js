@@ -21,10 +21,22 @@ EstateSync ist eine API für das einfache Inserieren auf Immobilienportalen und 
     link: 'https://estatesync.com',
   },
   {
+    title: 'Fullstack Engineer, Plan3t',
+    time: '2022 - 2023',
+    description: `
+Die Plan3t-App hilft dabei das individuelle Konsumverhalten möglichst klimafreundlich und nachhaltig zu gestalten. Meine Arbeit konzentrierte sich auf die Entwicklung des Produkts und der technischen Infrastruktur.
+
+- Technische Architektur einzelner Features
+- Mobile-App Entwicklung mit Flutter + Dart
+- Anbindung an Backend-Services mit Go + Protobuf
+`,
+    link: 'https://plan3t.one',
+  },
+  {
     title: 'DevOps Engineer, Homevoice',
     time: '2019 - 2022',
     description: `
-Homevoice ist die moderne Hausverwaltungssoftware. Wir digitalisieren und verschlanken Prozesse, um den Arbeitsalltag auf ein neues Level zu heben. Neben dem Software-Betrieb kümmere ich mich u.a. um interne Dokumentation, Datenschutz und andere teamkulturelle Themen.
+Homevoice ist die moderne Hausverwaltungssoftware mit der Prozesse im Arbeitsalltag digitalisiert und verschlankt werden. Neben der Cloud-Administration kümmerte ich mich u.a. um interne Dokumentation, Datenschutz und einige teamkulturelle Themen.
 
 - Deployment diverser GCP-Services (u.a. App Engine, Pub/Sub, Cloud Tasks)
 - Verwaltung automatisierter Pipelines via GitHub Actions (Continous integration)
