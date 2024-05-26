@@ -55,8 +55,10 @@ const Footer = () => (
           opacity: 0.5,
         }}
       >
-        Diese Website trackt Dich nicht und kommt ohne Cookies aus.<br />
-        Ich verwende ein datenschutzfreundliches Analysetool (Plausible), um anonyme Nutzungsdaten meiner Website zu erhalten.
+        Diese Website trackt Dich nicht und kommt ohne Cookies aus.
+        <br />
+        Ich verwende ein datenschutzfreundliches Analysetool (Plausible), um
+        anonyme Nutzungsdaten meiner Website zu erhalten.
       </Flex>
     </Container>
   </Box>

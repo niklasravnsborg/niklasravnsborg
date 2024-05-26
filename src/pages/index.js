@@ -28,9 +28,10 @@ const Header = () => (
         boxDecorationBreak: 'clone',
       }}
     >
-      Hej, ich bin Niklas. Zurzeit arbeite ich hauptsächlich an EstateSync.
-      Mich beschäftigt die Frage, wie wir in unseren Karrieren auf
-      gesellschaftlichen Wandel hinwirken können. Außerdem hab ich Spaß an Video- und Musikproduktion.
+      Hej, ich bin Niklas. Zurzeit arbeite ich hauptsächlich an EstateSync. Mich
+      beschäftigt die Frage, wie wir in unseren Karrieren auf gesellschaftlichen
+      Wandel hinwirken können. Außerdem hab ich Spaß an Video- und
+      Musikproduktion.
     </Text>
   </Box>
 )
