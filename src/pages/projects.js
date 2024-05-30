@@ -15,7 +15,7 @@ const VideosPage = ({ data }) => (
         Spaß am Schaffensprozess. Eine nicht ganz vollständige Übersicht der
         Projekte, an denen ich mitgewirken durfte:
       </p>
-      <div className="gird-cols-1 -m-2 grid gap-1 lg:grid-cols-2 xl:-m-3">
+      <div className="gird-cols-1 -m-2 grid auto-cols-fr gap-1 md:grid-cols-2 xl:-m-3">
         {data.allVideosYaml.nodes.map(props => (
           <div className="p-2 xl:p-3" key={props.youtubeId}>
             <VideoCard {...props} />

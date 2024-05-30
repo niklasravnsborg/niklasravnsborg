@@ -35,10 +35,9 @@ const Footer = () => (
         </div>
       </div>
       <div className="mx-auto max-w-[32rem] text-center opacity-50">
-        Diese Website trackt Dich nicht und kommt ohne Cookies aus.
-        <br />
-        Ich verwende ein datenschutzfreundliches Analysetool (Plausible), um
-        anonyme Nutzungsdaten meiner Website zu erhalten.
+        Diese Website trackt Dich nicht und kommt ohne Cookies aus. Ich verwende
+        ein datenschutzfreundliches Analysetool (Plausible), um anonyme
+        Nutzungsdaten meiner Website zu erhalten.
       </div>
     </Container>
   </footer>

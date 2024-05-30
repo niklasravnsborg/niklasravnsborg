@@ -10,7 +10,7 @@ const buttonVariants = cva({
       colored: 'text-dark/60',
     },
     size: {
-      large: 'px-4 py-3 xl:px-4',
+      large: 'px-3 py-3 min-[500px]:px-4 xl:px-4',
       default: 'px-3 py-3',
     },
     color: {

@@ -11,7 +11,7 @@ import BorderCard from '../components/BorderCard'
 const Header = () => (
   <div>
     <img className="mb-3 block size-[90px] rounded-full" src={niklas} />
-    <h1 className="mb-3 inline bg-dark box-decoration-clone text-center text-lg font-bold leading-[1.75] text-white shadow-[0_0_0_4px] shadow-dark md:text-xl lg:text-2xl">
+    <h1 className="mb-3 inline bg-dark box-decoration-clone text-center text-lg font-bold leading-[1.8] text-white shadow-[0_0_0_4px] shadow-dark md:text-xl lg:text-2xl">
       Hej, ich bin Niklas. Zurzeit arbeite ich hauptsächlich an EstateSync. Mich
       beschäftigt die Frage, wie wir in unseren Karrieren auf gesellschaftlichen
       Wandel hinwirken können. Außerdem hab ich Spaß an Video- und
