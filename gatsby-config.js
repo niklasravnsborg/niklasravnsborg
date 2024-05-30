@@ -3,13 +3,7 @@ module.exports = {
     siteUrl: `https://niklasravnsborg.com`,
   },
   plugins: [
-    `gatsby-plugin-emotion`,
-    {
-      resolve: `gatsby-plugin-theme-ui`,
-      options: {
-        preset: '@theme-ui/preset-funk',
-      },
-    },
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     'gatsby-transformer-yaml',
     `gatsby-plugin-netlify`,
@@ -39,12 +33,6 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaultQuality: 80,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
       },
     },
     {

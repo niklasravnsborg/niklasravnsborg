@@ -1,23 +1,20 @@
 import React from 'react'
-import { Box, Flex, Text, Button } from 'theme-ui'
+import Button from '../Button'
 import { Link as GatsbyLink } from 'gatsby'
 
 import Container from '../Container'
-import { lighten, transparentize } from 'polished'
 
-const HeaderLink = ({ to, color, ...props }) => {
+const HeaderLink = ({ to, color, children }) => {
   return (
     <GatsbyLink
       to={to}
       getProps={({ isCurrent }) => ({
         children: (
           <Button
-            px={[4, 3, 4]}
-            variant="header"
-            sx={{ cursor: 'pointer' }} // TODO: refactor this by not wrapping a button in a link
-            bg={isCurrent && transparentize(0.9, lighten(0.2, color))}
-            color={isCurrent && color}
-            {...props}
+            variant="colored"
+            color={isCurrent ? color : 'unset'}
+            size="large"
+            children={children}
           />
         ),
       })}
@@ -26,44 +23,26 @@ const HeaderLink = ({ to, color, ...props }) => {
 }
 
 const Header = () => (
-  <Box as="header" py={[null, 2]} my="4">
+  <header className="my-4 lg:py-2">
     <Container py="3">
-      <Flex
-        sx={{
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
-        <Box mb={[3, 'initial']} sx={{ width: ['100%', 'initial'] }}>
+      <div className="flex flex-wrap items-center justify-center md:justify-between">
+        <div className="mb-3 w-full md:mb-0 md:w-auto">
           <GatsbyLink to="/">
-            <Text
-              sx={{
-                fontWeight: 'bold',
-                fontSize: 22,
-                textAlign: ['center', 'inherit'],
-                display: 'block',
-              }}
-            >
+            <div className="text-center text-xl font-bold lg:text-left">
               niklas ravnsborg
-            </Text>
+            </div>
           </GatsbyLink>
-        </Box>
-        <Box
-          sx={{
-            width: ['100%', '70%'],
-            maxWidth: ['initial', '20rem', '26rem'],
-          }}
-        >
-          <Flex sx={{ justifyContent: ['space-around', 'space-between'] }}>
+        </div>
+        <div className="w-full max-w-[26rem] md:w-[70%]">
+          <div className="flex justify-around lg:justify-between">
             <HeaderLink to="/" color="blue" children="Über mich" />
             <HeaderLink to="/experience/" color="green" children="Erfahrung" />
             <HeaderLink to="/projects/" color="orange" children="Videos" />
-          </Flex>
-        </Box>
-      </Flex>
+          </div>
+        </div>
+      </div>
     </Container>
-  </Box>
+  </header>
 )
 
 export default Header

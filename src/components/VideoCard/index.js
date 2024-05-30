@@ -1,24 +1,30 @@
 import React from 'react'
-import { shade } from 'polished'
-import { Box, Card, Text, AspectRatio, Image } from 'theme-ui'
-
 import Ellipsis from '../Ellipsis'
+import Card from '../Card'
+import { shade } from 'polished'
 
 const VideoCard = ({ youtubeId, color, name, date, bright }) => (
-  <a href={`https://youtu.be/${youtubeId}`} target="_blank" rel="noreferrer">
-    <Card p={3} bg={color}>
-      <AspectRatio ratio={16 / 9} bg={shade(0.2, color)}>
-        <Image
+  <a
+    href={`https://youtu.be/${youtubeId}`}
+    target="_blank"
+    rel="noreferrer"
+    className="block"
+  >
+    <Card style={{ backgroundColor: color }}>
+      <div
+        className="relative pb-[56.25%]"
+        style={{ backgroundColor: shade(0.2, color) }}
+      >
+        <img
           alt={name}
           src={`https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`}
+          className="absolute left-0 top-0 h-full w-full object-cover"
         />
-      </AspectRatio>
-      <Box mt="3" color={bright && 'dark'}>
-        <Ellipsis sx={{ fontWeight: '500' }}>{name}</Ellipsis>
-        <Text sx={{ fontSize: '0.9em', fontStyle: 'italic', opacity: '.6' }}>
-          {date}
-        </Text>
-      </Box>
+      </div>
+      <div className={`mt-3 ${bright ? 'text-dark' : 'text-white'}`}>
+        <Ellipsis className="font-medium">{name}</Ellipsis>
+        <p className="text-sm italic opacity-60">{date}</p>
+      </div>
     </Card>
   </a>
 )

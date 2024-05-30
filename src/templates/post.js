@@ -14,10 +14,13 @@ const BlogPostTemplate = ({ data }) => {
     <Layout title={siteTitle}>
       <Container>
         <article>
-          <h1>{post.frontmatter.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <h1 className="mb-3 text-xl">{post.frontmatter.title}</h1>
+          <div
+            className="prose text-pretty md:prose-lg"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
         </article>
-        <BorderCard p={4}>
+        <BorderCard className="p-4">
           Du hast Feedback zu diesem Artikel?{' '}
           <UnderlineLink>
             <a

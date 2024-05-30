@@ -1,67 +1,47 @@
 import React from 'react'
-import { Flex, Box, Image } from 'theme-ui'
 import lotus from '../../images/lotus.svg'
 
 import Container from '../Container'
 import Link from '../Link'
 
 const Footer = () => (
-  <Box
-    as="footer"
-    my={5}
-    sx={{
-      a: {
-        color: 'inherit',
-        borderBottom: `1px solid`,
-        borderColor: 'dark',
-      },
-    }}
-  >
+  <footer className="my-5">
     <Container>
-      <Flex mb={3}>
-        <Image
+      <div className="mb-3 flex justify-center">
+        <img
           src={lotus}
-          sx={{
-            maxWidth: 60,
-            margin: '0 auto',
-            opacity: 0.3,
-          }}
+          className="mx-auto w-full max-w-14 opacity-30"
+          alt="Lotus"
         />
-      </Flex>
-      <Flex
-        mx={-2}
-        mb={5}
-        sx={{
-          flexWrap: 'wrap',
-          justifyContent: ['left', 'center'],
-          opacity: 0.5,
-        }}
-      >
-        <Box px={2}>
-          <Link to="/">start</Link>
-        </Box>
-        <Box px={2}>
-          <Link to="mailto:hej@niklasravnsborg.com">mail</Link>
-        </Box>
-        <Box px={2}>
-          <Link to="/imprint/">impressum</Link>
-        </Box>
-      </Flex>
-      <Flex
-        sx={{
-          margin: '0 auto',
-          textAlign: 'center',
-          maxWidth: '32rem',
-          opacity: 0.5,
-        }}
-      >
+      </div>
+      <div className="mx-2 mb-4 flex flex-wrap justify-center opacity-50">
+        <div className="px-2">
+          <Link to="/" className="border-b border-dark text-current">
+            start
+          </Link>
+        </div>
+        <div className="px-2">
+          <Link
+            to="mailto:hej@niklasravnsborg.com"
+            className="border-b border-dark text-current"
+          >
+            mail
+          </Link>
+        </div>
+        <div className="px-2">
+          <Link to="/imprint/" className="border-b border-dark text-current">
+            impressum
+          </Link>
+        </div>
+      </div>
+      <div className="mx-auto max-w-[32rem] text-center opacity-50">
         Diese Website trackt Dich nicht und kommt ohne Cookies aus.
         <br />
         Ich verwende ein datenschutzfreundliches Analysetool (Plausible), um
         anonyme Nutzungsdaten meiner Website zu erhalten.
-      </Flex>
+      </div>
     </Container>
-  </Box>
+  </footer>
 )
 
 export default Footer

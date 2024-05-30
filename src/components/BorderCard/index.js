@@ -1,28 +1,21 @@
 import React from 'react'
-import { Box } from 'theme-ui'
 
 const borderThinkness = 4
 const borderRadius = 10
 
 const BorderCard = props => (
-  <Box
-    sx={theme => ({
-      background: 'blue',
-      padding: borderThinkness + 'px',
-      backgroundColor: '#4158D0',
-      backgroundImage: `linear-gradient(to bottom right, ${theme.colors.blue} 0%, ${theme.colors.green} 100%)`,
-      borderRadius: borderRadius,
-      height: '100%',
-    })}
+  <div
+    className={`h-full bg-gradient-to-br from-blue to-green`}
+    style={{ borderRadius: 10, padding: borderThinkness }}
   >
-    <Box
-      bg="white"
-      sx={{
+    <div
+      style={{
         borderRadius: borderRadius - borderThinkness,
+        backgroundColor: 'white',
       }}
       {...props}
     />
-  </Box>
+  </div>
 )
 
 export default BorderCard

@@ -9,5 +9,14 @@
         "singleQuote": false
       }
     }
+  ],
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindFunctions": [
+    "clsx",
+    "cn",
+    "twMerge",
+    "cva"
   ]
 }

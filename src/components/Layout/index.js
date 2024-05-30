@@ -1,13 +1,13 @@
 import React from 'react'
-import 'typeface-kumbh-sans'
-import { Box } from 'theme-ui'
 import Helmet from 'react-helmet'
+import '@fontsource/kumbh-sans'
+import '@fontsource/kumbh-sans/700.css'
 
 import Header from '../Header'
 import Footer from '../Footer'
 
 const Layout = ({ title, desc, children, ...props }) => (
-  <Box {...props}>
+  <div {...props}>
     <Helmet
       defaultTitle="niklas ravnsborg"
       titleTemplate="%s – niklas ravnsborg"
@@ -23,7 +23,7 @@ const Layout = ({ title, desc, children, ...props }) => (
     <Header />
     {children}
     <Footer />
-  </Box>
+  </div>
 )
 
 export default Layout

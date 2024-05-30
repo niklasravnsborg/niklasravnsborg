@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Grid, Box, Heading, Paragraph } from 'theme-ui'
 
 import Layout from '../components/Layout'
 import Container from '../components/Container'
@@ -8,21 +7,21 @@ import VideoCard from '../components/VideoCard'
 
 const VideosPage = ({ data }) => (
   <Layout title="Videoprojekte">
-    <Container pb={4}>
-      <Heading mb={3}>Videoprojekte</Heading>
-      <Paragraph mb={3}>
+    <Container className="pb-4">
+      <h2 className="mb-3 text-xl">Videoprojekte</h2>
+      <p className="mb-4 text-dark/80 md:text-lg/relaxed">
         Beim Filmemachen kommen für mich mehrere Leidenschaften zusammen:
         Visuelles, Musik und die gemeinsame Arbeit mit kreativen Machern mit
         Spaß am Schaffensprozess. Eine nicht ganz vollständige Übersicht der
         Projekte, an denen ich mitgewirken durfte:
-      </Paragraph>
-      <Grid m={[-2, null, -3]} columns={[1, 2]} gap="1">
+      </p>
+      <div className="gird-cols-1 -m-2 grid gap-1 lg:grid-cols-2 xl:-m-3">
         {data.allVideosYaml.nodes.map(props => (
-          <Box p={[2, null, 3]} key={props.youtubeId}>
+          <div className="p-2 xl:p-3" key={props.youtubeId}>
             <VideoCard {...props} />
-          </Box>
+          </div>
         ))}
-      </Grid>
+      </div>
     </Container>
   </Layout>
 )

@@ -1,16 +1,10 @@
 import React from 'react'
-import { Box } from 'theme-ui'
 
-const Container = ({ sx, ...props }) => (
-  <Box
-    mx="auto"
-    px="3"
-    sx={{
-      maxWidth: props.wide ? 1250 : 900,
-      ...sx,
-    }}
-    {...props}
-  />
-)
+const Container = ({ wide, className, ...props }) => {
+  const maxWidthClass = wide ? 'max-w-[1250px]' : 'max-w-[900px]'
+  const classes = `${maxWidthClass} mx-auto px-3 ${className}`
+
+  return <div className={classes} {...props} />
+}
 
 export default Container

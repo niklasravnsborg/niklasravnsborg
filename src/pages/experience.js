@@ -1,9 +1,9 @@
 import React from 'react'
-import { Box, Heading, Button } from 'theme-ui'
 import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
 import Link from '../components/Link'
+import Button from '../components/Button'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
 const experiences = [
@@ -69,29 +69,25 @@ Exposify war eine benutzerfreundliche Maklersoftware für mittelständige Immobi
 
 const ExperiencePage = () => (
   <Layout title="Erfahrung">
-    <Container my={-4}>
+    <Container className="-my-3">
       {experiences.map(experience => (
-        <Box py={4} key={experience.title}>
-          <Heading mb={2}>{experience.title}</Heading>
-          <Box mb={3}>{experience.time}</Box>
-          <ReactMarkdown>{experience.description}</ReactMarkdown>
+        <div className="py-3" key={experience.title}>
+          <h2 className="mb-2 text-xl">{experience.title}</h2>
+          <div className="mb-3">{experience.time}</div>
+          <ReactMarkdown className="prose text-pretty md:prose-lg">
+            {experience.description}
+          </ReactMarkdown>
           {experience.link && (
-            <Link to={experience.link} target="_blank">
-              <Button
-                sx={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  cursor: 'pointer', // TODO: refactor this by not wrapping a button in a link
-                }}
-              >
-                Produkt-Website
-                <HiOutlineExternalLink
-                  css={{ marginTop: '-4px', marginLeft: '5px' }}
-                />
-              </Button>
-            </Link>
+            <Button className="my-3" variant="bordered" asChild>
+              <Link to={experience.link} target="_blank">
+                <div className="flex items-center">
+                  Produkt-Website
+                  <HiOutlineExternalLink className="ml-1" />
+                </div>
+              </Link>
+            </Button>
           )}
-        </Box>
+        </div>
       ))}
     </Container>
   </Layout>

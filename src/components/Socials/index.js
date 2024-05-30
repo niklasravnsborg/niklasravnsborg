@@ -1,5 +1,4 @@
 import React from 'react'
-import { Box, Flex, Link } from 'theme-ui'
 import {
   IoLogoGithub,
   IoLogoInstagram,
@@ -8,22 +7,20 @@ import {
 } from 'react-icons/io5'
 
 const Social = ({ href, color, reactIcon }) => (
-  <Box p={2}>
-    <Link target="_blank" href={href}>
-      <Box
-        p="6px"
-        bg={color}
-        color="white"
-        sx={{ display: 'inline-flex', borderRadius: '50%' }}
-      >
-        {reactIcon({ size: '.9em' })}
-      </Box>
-    </Link>
-  </Box>
+  <div className="p-2">
+    <a
+      target="_blank"
+      href={href}
+      className="inline-flex items-center justify-center rounded-full p-1.5 text-white"
+      style={{ backgroundColor: color }}
+    >
+      {reactIcon({ className: 'text-[.9em]' })}
+    </a>
+  </div>
 )
 
 export default () => (
-  <Flex flexWrap="wrap" m={-2}>
+  <div className="m-[-8px] flex flex-wrap">
     <Social
       href="https://github.com/niklasravnsborg/"
       color="black"
@@ -44,5 +41,5 @@ export default () => (
       color="#C13584"
       reactIcon={IoLogoInstagram}
     />
-  </Flex>
+  </div>
 )
