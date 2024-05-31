@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 import { Slot } from '@radix-ui/react-slot'
-import { cva } from '../utils/cva.config'
+import { cva } from '../../utils/cva.config'
 
 const buttonVariants = cva({
   base: 'inline-block whitespace-nowrap rounded-sm text-base font-bold leading-none ring-offset-white transition-colors hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',

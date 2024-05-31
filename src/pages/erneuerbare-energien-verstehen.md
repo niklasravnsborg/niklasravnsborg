@@ -1,6 +1,7 @@
 ---
 title: Erneuerbare Energien verstehen
 date: 11. Februar 2022
+layout: ../layouts/Post.astro
 ---
 
 Damit unsere Gesellschaft klimaneutral funktionieren kann, benötigen wir den massiven Ausbau von erneuerbaren Energien. Ich habe mich gefragt, welchen Anteil unseres Energieverbrauchs wir realistisch durch die unterschiedlichen Technologien decken können und wie stark sie dafür ausgebaut werden müssen. Das Buch „Erneuerbare Energien zum Verstehen und Mitreden“ von Christian Holler, Joachim Gaukel, Harald Lesch und Florian Lesch hat mir eine Einordnung der verschiedenen Energiequellen und der dazugehörigen Technologien vermittelt.

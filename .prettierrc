@@ -10,13 +10,6 @@
       }
     }
   ],
-  "plugins": [
-    "prettier-plugin-tailwindcss"
-  ],
-  "tailwindFunctions": [
-    "clsx",
-    "cn",
-    "twMerge",
-    "cva"
-  ]
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["clsx", "cn", "twMerge", "cva"]
 }

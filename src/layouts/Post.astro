@@ -1,0 +1,33 @@
+---
+import Layout from './Layout.astro'
+import Container from '../components/Container'
+import BorderCard from '../components/BorderCard'
+import UnderlineLink from '../components/UnderlineLink'
+
+const { pageTitle, frontmatter } = Astro.props
+---
+
+<Layout title={pageTitle}>
+  <Container>
+    <article>
+      <h1 class="mb-3 text-xl">{frontmatter.title}</h1>
+      <div class="prose text-pretty md:prose-lg">
+        <slot />
+      </div>
+    </article>
+    <BorderCard className="p-4">
+      Du hast Feedback zu diesem Artikel?{' '}
+      <UnderlineLink>
+        <a
+          href={`mailto:hej@niklasravnsborg.com?subject=Feedback zu "${frontmatter.title}"`}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Mail an hej@niklasravnsborg.com"
+        >
+          Schreib mir eine Antwort
+        </a>
+      </UnderlineLink>
+      !
+    </BorderCard>
+  </Container>
+</Layout>

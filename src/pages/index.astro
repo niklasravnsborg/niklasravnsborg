@@ -1,0 +1,49 @@
+---
+import { Image } from 'astro:assets'
+
+import Layout from '../layouts/Layout.astro'
+import Container from '../components/Container'
+import Socials from '../components/Socials'
+import BorderCard from '../components/BorderCard'
+
+import niklas from '../images/niklas.jpg'
+
+const allPosts = await Astro.glob('../pages/*.md')
+---
+
+<Layout title="Über mich">
+  <Container className="mb-4">
+    <div>
+      <Image
+        class="mb-3 block size-[90px] rounded-full"
+        src={niklas}
+        alt="Niklas"
+      />
+      <h1
+        class="mb-3 inline bg-dark box-decoration-clone text-center text-lg font-bold leading-[1.8] text-white shadow-[0_0_0_4px] shadow-dark md:text-xl lg:text-2xl"
+      >
+        Hej, ich bin Niklas. Zurzeit arbeite ich hauptsächlich an EstateSync.
+        Mich beschäftigt die Frage, wie wir in unseren Karrieren auf
+        gesellschaftlichen Wandel hinwirken können. Außerdem hab ich Spaß an
+        Video- und Musikproduktion.
+      </h1>
+    </div>
+  </Container>
+  <Container className="mb-4 lg:mb-5">
+    <Socials />
+  </Container>
+  <Container className="mb-5 md:mb-6">
+    {
+      allPosts.map(post => (
+        <a href={post.url}>
+          <div class="w-full sm:w-1/2 md:w-1/3">
+            <BorderCard className="p-3">
+              <h3 class="mb-2 text-xl">{post.frontmatter.title}</h3>
+              <p class="text-gray-500">{post.frontmatter.date}</p>
+            </BorderCard>
+          </div>
+        </a>
+      ))
+    }
+  </Container>
+</Layout>

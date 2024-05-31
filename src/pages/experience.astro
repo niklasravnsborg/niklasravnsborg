@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactMarkdown from 'react-markdown'
-import Layout from '../components/Layout'
+---
+import { marked } from 'marked'
+import { HiOutlineExternalLink } from 'react-icons/hi'
+
+import Layout from '../layouts/Layout.astro'
 import Container from '../components/Container'
 import Link from '../components/Link'
 import Button from '../components/Button'
-import { HiOutlineExternalLink } from 'react-icons/hi'
 
 const experiences = [
   {
@@ -66,21 +67,24 @@ Exposify war eine benutzerfreundliche Maklersoftware für mittelständige Immobi
 `,
   },
 ]
+---
 
-const ExperiencePage = () => (
-  <Layout title="Erfahrung">
-    <Container className="-my-3">
-      {experiences.map(experience => (
-        <div className="py-3" key={experience.title}>
-          <h2 className="mb-2 text-xl">{experience.title}</h2>
-          <div className="mb-3">{experience.time}</div>
-          <ReactMarkdown className="prose text-pretty md:prose-lg">
-            {experience.description}
-          </ReactMarkdown>
+<Layout title="Erfahrung">
+  <Container className="-my-3">
+    {
+      experiences.map(experience => (
+        <div class="py-3">
+          <h2 class="mb-2 text-xl">{experience.title}</h2>
+          <div class="mb-3">{experience.time}</div>
+          <div
+            class="prose text-pretty md:prose-lg"
+            set:html={marked.parse(experience.description)}
+          />
           {experience.link && (
-            <Button className="my-3" variant="bordered" asChild>
+            // @ts-ignore
+            <Button className="my-3" variant="bordered">
               <Link to={experience.link} target="_blank">
-                <div className="flex items-center">
+                <div class="flex items-center">
                   Produkt-Website
                   <HiOutlineExternalLink className="ml-1" />
                 </div>
@@ -88,9 +92,7 @@ const ExperiencePage = () => (
             </Button>
           )}
         </div>
-      ))}
-    </Container>
-  </Layout>
-)
-
-export default ExperiencePage
+      ))
+    }
+  </Container>
+</Layout>

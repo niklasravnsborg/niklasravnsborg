@@ -6,7 +6,7 @@ const borderRadius = 10
 const BorderCard = props => (
   <div
     className={`h-full bg-gradient-to-br from-blue to-green`}
-    style={{ borderRadius: 10, padding: borderThinkness }}
+    style={{ borderRadius: borderRadius, padding: borderThinkness }}
   >
     <div
       style={{

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Container = ({ wide, className, ...props }) => {
+const Container = ({ wide = false, className = '', ...props }) => {
   const maxWidthClass = wide ? 'max-w-[1250px]' : 'max-w-[900px]'
   const classes = `${maxWidthClass} mx-auto px-3 ${className}`
 

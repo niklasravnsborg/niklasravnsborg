@@ -2,7 +2,6 @@
 
 pkgs.mkShell {
   packages = with pkgs; [
-    nodejs_20
-    python3
+    bun
   ];
 }

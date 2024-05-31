@@ -9,7 +9,7 @@ const Footer = () => (
     <Container>
       <div className="mb-3 flex justify-center">
         <img
-          src={lotus}
+          src={lotus.src}
           className="mx-auto w-full max-w-14 opacity-30"
           alt="Lotus"
         />
