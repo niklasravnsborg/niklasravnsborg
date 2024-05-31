@@ -2,7 +2,13 @@
 import lotus from '../images/lotus.svg'
 
 import Container from './Container.astro'
-import Link from './Link.astro'
+import UnderlineLink from './UnderlineLink.astro'
+
+const links = [
+  { href: '/', text: 'Start' },
+  { href: 'mailto:hej@niklasravnsborg.com', text: 'Mail' },
+  { href: '/imprint/', text: 'Impressum' },
+]
 ---
 
 <footer class="my-5">
@@ -14,25 +20,16 @@ import Link from './Link.astro'
         alt="Lotus"
       />
     </div>
-    <div class="mx-2 mb-4 flex flex-wrap justify-center opacity-50">
-      <div class="px-2">
-        <Link href="/" class="border-b border-dark text-current"> start </Link>
-      </div>
-      <div class="px-2">
-        <Link
-          href="mailto:hej@niklasravnsborg.com"
-          class="border-b border-dark text-current"
-        >
-          mail
-        </Link>
-      </div>
-      <div class="px-2">
-        <Link href="/imprint/" class="border-b border-dark text-current">
-          impressum
-        </Link>
-      </div>
+    <div class="mx-2 mb-4 flex flex-wrap justify-center text-lightgray">
+      {
+        links.map(link => (
+          <UnderlineLink className="mx-2 lowercase" href={link.href}>
+            {link.text}
+          </UnderlineLink>
+        ))
+      }
     </div>
-    <div class="mx-auto max-w-[32rem] text-center opacity-50">
+    <div class="mx-auto max-w-[32rem] text-center text-lightgray">
       Diese Website trackt Dich nicht und kommt ohne Cookies aus. Ich verwende
       ein datenschutzfreundliches Analysetool (Plausible), um anonyme
       Nutzungsdaten meiner Website zu erhalten.
