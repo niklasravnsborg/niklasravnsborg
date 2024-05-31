@@ -1,0 +1,41 @@
+---
+import lotus from '../images/lotus.svg'
+
+import Container from './Container.astro'
+import Link from './Link.astro'
+---
+
+<footer class="my-5">
+  <Container>
+    <div class="mb-3 flex justify-center">
+      <img
+        src={lotus.src}
+        class="mx-auto w-full max-w-14 opacity-30"
+        alt="Lotus"
+      />
+    </div>
+    <div class="mx-2 mb-4 flex flex-wrap justify-center opacity-50">
+      <div class="px-2">
+        <Link href="/" class="border-b border-dark text-current"> start </Link>
+      </div>
+      <div class="px-2">
+        <Link
+          href="mailto:hej@niklasravnsborg.com"
+          class="border-b border-dark text-current"
+        >
+          mail
+        </Link>
+      </div>
+      <div class="px-2">
+        <Link href="/imprint/" class="border-b border-dark text-current">
+          impressum
+        </Link>
+      </div>
+    </div>
+    <div class="mx-auto max-w-[32rem] text-center opacity-50">
+      Diese Website trackt Dich nicht und kommt ohne Cookies aus. Ich verwende
+      ein datenschutzfreundliches Analysetool (Plausible), um anonyme
+      Nutzungsdaten meiner Website zu erhalten.
+    </div>
+  </Container>
+</footer>

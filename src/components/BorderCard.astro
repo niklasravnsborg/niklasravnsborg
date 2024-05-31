@@ -1,0 +1,21 @@
+---
+const props = Astro.props
+
+const borderThinkness = 4
+const borderRadius = 10
+---
+
+<div
+  class={`h-full bg-gradient-to-br from-blue to-green`}
+  style={{ borderRadius: `${borderRadius}px`, padding: `${borderThinkness}px` }}
+>
+  <div
+    style={{
+      borderRadius: `${borderRadius - borderThinkness}px`,
+      backgroundColor: 'white',
+    }}
+    {...props}
+  >
+    <slot />
+  </div>
+</div>

@@ -2,9 +2,9 @@
 import { Image } from 'astro:assets'
 
 import Layout from '../layouts/Layout.astro'
-import Container from '../components/Container'
-import Socials from '../components/Socials'
-import BorderCard from '../components/BorderCard'
+import Container from '../components/Container.astro'
+import Socials from '../components/Socials.astro'
+import BorderCard from '../components/BorderCard.astro'
 
 import niklas from '../images/niklas.jpg'
 
@@ -37,7 +37,7 @@ const allPosts = await Astro.glob('../pages/*.md')
       allPosts.map(post => (
         <a href={post.url}>
           <div class="w-full sm:w-1/2 md:w-1/3">
-            <BorderCard className="p-3">
+            <BorderCard class="p-3">
               <h3 class="mb-2 text-xl">{post.frontmatter.title}</h3>
               <p class="text-gray-500">{post.frontmatter.date}</p>
             </BorderCard>

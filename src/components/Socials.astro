@@ -1,0 +1,43 @@
+---
+import { Icon } from 'astro-icon/components'
+
+const socials = [
+  {
+    href: 'https://github.com/niklasravnsborg/',
+    color: 'black',
+    icon: 'cib:github',
+  },
+  {
+    href: 'https://linkedin.com/in/niklasravnsborg/',
+    color: '#0b66c2',
+    icon: 'cib:linkedin-in',
+  },
+  {
+    href: 'https://twitter.com/niklasravnsborg/',
+    color: '#1ea1f1',
+    icon: 'cib:twitter',
+  },
+  {
+    href: 'https://instagram.com/niklasravnsborg/',
+    color: '#C13584',
+    icon: 'cib:instagram',
+  },
+]
+---
+
+<div class="m-[-8px] flex flex-wrap">
+  {
+    socials.map(social => (
+      <div class="p-2">
+        <a
+          target="_blank"
+          href={social.href}
+          class="inline-flex items-center justify-center rounded-full p-1.5 text-white"
+          style={{ backgroundColor: social.color }}
+        >
+          <Icon class="text-[.9em]" name={social.icon} />
+        </a>
+      </div>
+    ))
+  }
+</div>

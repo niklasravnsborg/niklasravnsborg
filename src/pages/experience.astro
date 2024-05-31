@@ -1,11 +1,10 @@
 ---
 import { marked } from 'marked'
-import { HiOutlineExternalLink } from 'react-icons/hi'
+import { Icon } from 'astro-icon/components'
 
 import Layout from '../layouts/Layout.astro'
-import Container from '../components/Container'
-import Link from '../components/Link'
-import Button from '../components/Button'
+import Container from '../components/Container.astro'
+import Button from '../components/Button.astro'
 
 const experiences = [
   {
@@ -81,14 +80,20 @@ Exposify war eine benutzerfreundliche Maklersoftware für mittelständige Immobi
             set:html={marked.parse(experience.description)}
           />
           {experience.link && (
-            // @ts-ignore
-            <Button className="my-3" variant="bordered">
-              <Link to={experience.link} target="_blank">
-                <div class="flex items-center">
-                  Produkt-Website
-                  <HiOutlineExternalLink className="ml-1" />
-                </div>
-              </Link>
+            <Button
+              href={experience.link}
+              target="_blank"
+              className="my-3"
+              variant="bordered"
+            >
+              <div class="flex items-center">
+                Produkt-Website
+                <Icon
+                  class="-mt-[1px] ml-1"
+                  size={18}
+                  name="heroicons:arrow-top-right-on-square-16-solid"
+                />
+              </div>
             </Button>
           )}
         </div>

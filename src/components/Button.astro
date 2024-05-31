@@ -1,6 +1,5 @@
-import React, { forwardRef } from 'react'
-import { Slot } from '@radix-ui/react-slot'
-import { cva } from '../../utils/cva.config'
+---
+import { cva } from '../utils/cva.config'
 
 const buttonVariants = cva({
   base: 'inline-block whitespace-nowrap rounded-sm text-base font-bold leading-none ring-offset-white transition-colors hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
@@ -26,17 +25,25 @@ const buttonVariants = cva({
   },
 })
 
-const Button = forwardRef(
-  ({ className, variant, size, color, asChild = false, ...props }, ref) => {
-    const Comp = asChild ? Slot : 'button'
-    return (
-      <Comp
-        className={buttonVariants({ variant, size, color, className })}
-        ref={ref}
-        {...props}
-      />
-    )
-  },
-)
+const { className, variant, size, color, href, ...rest } = Astro.props
+---
 
-export default Button
+{
+  href ? (
+    <a
+      class={buttonVariants({ variant, size, color, className })}
+      href={href}
+      {...rest}
+    >
+      <slot />
+    </a>
+  ) : (
+    <button
+      class={buttonVariants({ variant, size, color, className })}
+      type="button"
+      {...rest}
+    >
+      <slot />
+    </button>
+  )
+}

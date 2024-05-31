@@ -1,0 +1,10 @@
+---
+import { cx } from '../utils/cva.config'
+
+const { wide = false, className } = Astro.props
+const maxWidthClass = wide ? 'max-w-[1250px]' : 'max-w-[900px]'
+---
+
+<div class={cx(`${maxWidthClass} mx-auto px-3 ${className}`)}>
+  <slot />
+</div>

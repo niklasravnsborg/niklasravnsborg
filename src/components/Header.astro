@@ -1,0 +1,44 @@
+---
+import Button from './Button.astro'
+import Container from './Container.astro'
+
+const { pathname } = Astro.props
+
+const isCurrent = (to: string) => pathname === to
+
+const links = [
+  { to: '/', color: 'blue', title: 'Über mich' },
+  { to: '/experience/', color: 'green', title: 'Erfahrung' },
+  { to: '/projects/', color: 'orange', title: 'Videos' },
+]
+---
+
+<header class="my-4 lg:py-2">
+  <Container py="3">
+    <div class="flex flex-wrap items-center justify-center md:justify-between">
+      <div class="mb-3 w-full md:mb-0 md:w-auto">
+        <a href="/">
+          <div class="text-center text-xl font-bold lg:text-left">
+            niklas ravnsborg
+          </div>
+        </a>
+      </div>
+      <div class="w-full max-w-[26rem] md:w-[70%]">
+        <div class="flex justify-around lg:justify-between">
+          {
+            links.map(link => (
+              <Button
+                href={link.to}
+                variant="colored"
+                color={isCurrent(link.to) ? link.color : 'unset'}
+                size="large"
+              >
+                {link.title}
+              </Button>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </Container>
+</header>

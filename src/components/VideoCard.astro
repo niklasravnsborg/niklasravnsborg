@@ -1,0 +1,31 @@
+---
+import Ellipsis from './Ellipsis.astro'
+import Card from './Card.astro'
+import { shade } from 'polished'
+
+const { youtubeId, color, name, date, bright } = Astro.props
+---
+
+<a
+  href={`https://youtu.be/${youtubeId}`}
+  target="_blank"
+  rel="noreferrer"
+  class="block"
+>
+  <Card style={{ backgroundColor: color }}>
+    <div
+      class="relative pb-[56.25%]"
+      style={{ backgroundColor: shade(0.2, color) }}
+    >
+      <img
+        alt={name}
+        src={`https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`}
+        class="absolute left-0 top-0 h-full w-full object-cover"
+      />
+    </div>
+    <div class={`mt-3 ${bright ? 'text-dark' : 'text-white'}`}>
+      <Ellipsis class="font-medium">{name}</Ellipsis>
+      <p class="text-sm italic opacity-60">{date}</p>
+    </div>
+  </Card>
+</a>
