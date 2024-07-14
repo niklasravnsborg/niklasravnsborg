@@ -4,6 +4,10 @@ import Link from './Link.astro'
 const { className, href, ...rest } = Astro.props
 ---
 
-<Link class={cx('inline-block border-b border-current', className)} href={href} {...rest}>
+<Link
+  class={cx('inline-block border-b border-current', className)}
+  href={href}
+  {...rest}
+>
   <slot />
 </Link>

@@ -6,7 +6,7 @@ const buttonVariants = cva({
   variants: {
     variant: {
       bordered:
-        'border-darkgray/30 text-darkgray/80 hover:border-darkgray/60 border',
+        'border border-darkgray/30 text-darkgray/80 hover:border-darkgray/60',
       colored: 'text-lightgray',
     },
     size: {
@@ -15,9 +15,9 @@ const buttonVariants = cva({
     },
     color: {
       unset: 'hover:text-darkgray',
-      green: 'text-darkgreen bg-green/15',
-      blue: 'text-darkblue bg-blue/15',
-      orange: 'text-darkorange bg-orange/15',
+      green: 'bg-green/15 text-darkgreen',
+      blue: 'bg-blue/15 text-darkblue',
+      orange: 'bg-orange/15 text-darkorange',
     },
   },
   defaultVariants: {
