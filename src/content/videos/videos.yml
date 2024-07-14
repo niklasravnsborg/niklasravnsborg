@@ -1,233 +1,233 @@
 - name: "MARC MAG MUSIK"
   youtubeId: cCOd_J2LLaQ
   date: Juni 2021
-  color: "#3c9890"
+  color: "hsl(174.8, 43.4%, 41.6%)"
 
 - name: "AUF DEM WEG ZU DIR - Unplugged Version"
   youtubeId: clDbb-oWVPg
   date: Mai 2021
-  color: "#9bb461"
+  color: "hsl(78.1, 35.6%, 54.3%)"
 
 - name: "WIE TIEF KANN MAN SEHN [Paula Cover]"
   youtubeId: hm4M9tyISqw
   date: März 2021
-  color: "#7d3638"
+  color: "hsl(358.3, 39.7%, 35.1%)"
 
 - name: "LASS MA' NACHHALTIG [Videowettbewerb]"
   date: Februar 2019
   youtubeId: wKvgh36-Dgw
-  color: "#163b12"
+  color: "hsl(114.1, 53.2%, 15.1%)"
 
 - name: "TAUFE AM SÜDSTRAND - Nordrichten"
   youtubeId: PB9BA6gFwf8
   date: September 2017
-  color: "#7c94af"
+  color: "hsl(211.8, 24.2%, 58.6%)"
   hide: true
 
 - name: "EINFACH EASY - Exposify Spot"
   date: August 2017
   youtubeId: scTYqAYEfh4
-  color: "#ffffff"
+  color: "hsl(0, 0%, 100%)"
   bright: true
 
 - name: "LECKERLIES - Kleintierpraxis im Hain Spot"
   date: Juli 2017
   youtubeId: f3oFNPFPLs0
-  color: "#736962"
+  color: "hsl(24.7, 8%, 41.8%)"
 
 - name: "FÜNF BIS DREIZEHN - Abschlussvideo"
   youtubeId: 46GiACqo6MQ
   date: Juni 2017
-  color: "#98281a"
+  color: "hsl(6.7, 70.8%, 34.9%)"
 
 - name: "WIR SIND MACHER - Der Advent wird lit"
   youtubeId: JsLIhJGyEtY
   date: Dezember 2016
-  color: "#E1A454"
+  color: "hsl(34, 70.1%, 60.6%)"
 
 - name: "WILHELMSHAVENER WEIHNACHTSMARKT 2016"
   youtubeId: HBv5PJW6-KM
   date: Dezember 2016
-  color: "#CE2012"
+  color: "hsl(4.5, 83.9%, 43.9%)"
 
 - name: "IRGENDWOHIN - Pausenfüller"
   youtubeId: Iu61Ioob5TA
   date: November 2016
-  color: "#b65c52"
+  color: "hsl(6, 40.7%, 51.8%)"
 
 - name: "Wie soll ein Mensch [Michel Theilen Cover]"
   youtubeId: kT13_b0hUGo
   date: Oktober 2016
-  color: "#AF2C52"
+  color: "hsl(342.6, 59.8%, 42.9%)"
 
 - name: "Use Somebody [Michel Theilen Cover]"
   youtubeId: G12bC0vOJ8w
   date: Oktober 2016
-  color: "#713b28"
+  color: "hsl(15.6, 47.7%, 30%)"
 
 - name: "NDR2 Open Air Festival Wilhelmshaven 2016"
   youtubeId: DptEveR-l-U
   date: Juli 2016
-  color: "#99282E"
+  color: "hsl(356.8, 58.5%, 37.8%)"
 
 - name: "CARPE DIEM – Cardie [Official Video]"
   youtubeId: ZIyc575webA
   date: Mai 2016
-  color: "#404A4E"
+  color: "hsl(197.1, 9.9%, 27.8%)"
   hide: true
 
 - name: "PASSIONSPUNKTE 2016 - Nordrichten"
   youtubeId: 8if0SlIVsU4
   date: Mai 2016
-  color: "#BF6E4A"
+  color: "hsl(18.5, 47.8%, 52%)"
 
 - name: "KIWANIS POETRY SLAM 2016 - Nordrichten"
   youtubeId: U7KK_Eh-If8
   date: März 2016
-  color: "#5E8098"
+  color: "hsl(204.8, 23.6%, 48.2%)"
 
 - name: "GOSPECIAL UNTER VOLLDAMPF - Nordrichten"
   youtubeId: 0wT5hF_aplE
   date: Februar 2016
-  color: "#587341"
+  color: "hsl(92.4, 27.8%, 35.3%)"
 
 - name: "IMPERIALISMUS & INDUSTRIEALISIERUNG (Schulvideo)"
   youtubeId: XMSCv6fR-q8
   date: Anfang 2016
-  color: "#d48848"
+  color: "hsl(27.4, 61.9%, 55.7%)"
 
 - name: "BOSTON TEA PARTY & SKLAVENHANDEL (Schulvideo)"
   youtubeId: h1O4MLMeAeY
   date: November 2015
-  color: "#696fa2"
+  color: "hsl(233.7, 23.5%, 52.4%)"
 
 - name: "STRINGS AND BOOM - Nordrichten"
   youtubeId: EdfWGwOmf7I
   date: November 2015
-  color: "#645D80"
+  color: "hsl(252, 15.8%, 43.3%)"
 
 - name: "Taufe am Südstrand in Wilhelmshaven"
   youtubeId: B_RoZHGa7sc
   date: September 2015
-  color: "#A92C30"
+  color: "hsl(358.1, 58.7%, 41.8%)"
 
 - name: "WILDFLECKEN KiC 2015 - Nordrichten"
   youtubeId: 0LS8EoQvFVw
   date: August 2015
-  color: "#406B9E"
+  color: "hsl(212.6, 42.3%, 43.5%)"
 
 - name: "WOCHENENDE AN DER JADE 2015 - Nordrichten"
   youtubeId: XU7tN9tzcOU
   date: Juli 2015
-  color: "#CC4450"
+  color: "hsl(354.7, 57.1%, 53.3%)"
 
 - name: "AN INTERVIEW WITH CANCER (Schulvideo)"
   youtubeId: 4hatpV_dEIc
   date: Juni 2015
-  color: "#dcd621"
+  color: "hsl(58.1, 73.9%, 49.6%)"
   light: true
 
 - name: "KIWANIS POETRY SLAM 2015 - Nordrichten"
   youtubeId: dMpBX3-0_qY
   date: März 2015
-  color: "#EA9D5C"
+  color: "hsl(27.5, 77.2%, 63.9%)"
 
 - name: "DIE MUTMACHERIN: Das Leben ist schön - Buchtrailer"
   youtubeId: ON0AlByRd_k
   date: Februar 2015
-  color: "#549279"
+  color: "hsl(155.8, 27%, 45.1%)"
 
 - name: "WINTERWILDFLECKEN 2015 - Nordrichten"
   youtubeId: SJ-rG8AvLrY
   date: Februar 2015
-  color: "#FDFDFD"
+  color: "hsl(0, 0%, 99.2%)"
   bright: true
 
 - name: "MAKING OF GOIN' HIGH - Kengumedia"
   youtubeId: GlbZRaQEdc8
   date: Januar 2015
-  color: "#DFB551"
+  color: "hsl(42.3, 68.9%, 59.6%)"
 
 - name: "GOIN' HIGH - Masterminders - Music Video by Kengumedia"
   youtubeId: HRt18GqfyZQ
   date: Dezember 2014
-  color: "#FDFDFD"
+  color: "hsl(0, 0%, 99.2%)"
   bright: true
 
 - name: "KONSUM UND GELD (Schulvideo)"
   youtubeId: My99t6_qxdY
   date: November 2014
-  color: "#8a3939"
+  color: "hsl(0, 41.5%, 38.2%)"
 
 - name: "HOLI WILHELMSHAVEN 2014 - Nordrichten"
   youtubeId: Zr0rAqCfLaI
   date: August 2014
-  color: "#4A4C54"
+  color: "hsl(228, 6.3%, 31%)"
 
 - name: "WOCHENENDE AN DER JADE 2014"
   youtubeId: UGBCtBIzJpA
   date: Juli 2014
-  color: "#518C50"
+  color: "hsl(119, 27.3%, 43.1%)"
 
 - name: "PUBLIC VIEWING IN WILHELMSHAVEN – WM 2014"
   youtubeId: BU3pN4oPUr8
   date: Juni 2014
-  color: "#518C50"
+  color: "hsl(119, 27.3%, 43.1%)"
 
 - name: "WILHELMSHAVEN GEGEN GEWALT 2014"
   youtubeId: 9fT7vjHghTI
   date: Mai 2014
-  color: "#518C50"
+  color: "hsl(119, 27.3%, 43.1%)"
 
 - name: "SCHLICKTOWNSLAM 2014 - Poetry Slam"
   youtubeId: LzHmeadynYc
   date: Mai 2014
-  color: "#518C50"
+  color: "hsl(119, 27.3%, 43.1%)"
 
 - name: "JAHRGANGSVORSTELLUNG (Schulvideo)"
   youtubeId: H6MlWEzeBiA
   date: März 2014
-  color: "#478d94"
+  color: "hsl(185.5, 35.2%, 42.9%)"
 
 - name: "WIE GEHT ES WEITER? - Topbotschafter Josch"
   youtubeId: VVpy8Z7wa6Q
   date: April 2014
-  color: "#44A1EF"
+  color: "hsl(207.4, 84.2%, 60.2%)"
   hide: true
 
 - name: "DANKE! mit ALEXIBEXI - Topbotschafter Josch"
   youtubeId: P_LfsT5x5w8
   date: Dezember 2013
-  color: "#44A1EF"
+  color: "hsl(207.4, 84.2%, 60.2%)"
   hide: true
 
 - name: "GEWONNEN! - Topbotschafter Josch"
   youtubeId: _1P_18Gv7kk
   date: Dezember 2013
-  color: "#44A1EF"
+  color: "hsl(207.4, 84.2%, 60.2%)"
 
 - name: "MAKING OF - Topbotschafter Josch"
   youtubeId: FR7j9kgI_yY
   date: November 2013
-  color: "#44A1EF"
+  color: "hsl(207.4, 84.2%, 60.2%)"
 
 - name: "DRUMMER JOSCH - Topbotschafter Josch"
   youtubeId: i_vPiS4ZxyY
   date: Oktober 2013
-  color: "#44A1EF"
+  color: "hsl(207.4, 84.2%, 60.2%)"
   hide: true
 
 - name: "STIPENDIUM FÜR JOSCH - Topbotschafter Josch"
   youtubeId: sO8SwbzBahQ
   date: September 2013
-  color: "#44A1EF"
+  color: "hsl(207.4, 84.2%, 60.2%)"
 
 - name: "ZWEI GRUNDSÄTZE - DIE WELLE (Schulfilm 9. Klasse)"
   youtubeId: pVfs1AST0cw
   date: Juni 2013
-  color: "#A05A53"
+  color: "hsl(5.5, 31.7%, 47.6%)"
 
 - name: "WAS IST EINE INFLATION? (Erkärfilm)"
   youtubeId: m1vvM-5SrkE
   date: April 2013
-  color: "#83AB54"
+  color: "hsl(87.6, 34.1%, 50%)"
