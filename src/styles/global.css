@@ -1,3 +1,60 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 16px;
+  --spacing-4: 32px;
+  --spacing-5: 64px;
+  --spacing-6: 128px;
+  --spacing-7: 256px;
+
+  --color-darkgray: hsl(218.7, 41.3%, 14.7%);
+  --color-lightgray: hsl(220, 6.3%, 46.9%);
+  --color-blue: hsl(219.4, 100%, 58.2%);
+  --color-darkblue: hsl(219.6, 71.3%, 49.2%);
+  --color-green: hsl(120, 56.4%, 45.9%);
+  --color-darkgreen: hsl(120, 57%, 31%);
+  --color-orange: hsl(34.6, 100%, 57.5%);
+  --color-darkorange: hsl(34.4, 100%, 31.8%);
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 27px;
+  --text-3xl: 32px;
+  --text-4xl: 48px;
+
+  --radius-none: 0;
+  --radius-sm: 8px;
+  --radius: 16px;
+  --radius-md: 24px;
+  --radius-lg: 48px;
+  --radius-full: 9999px;
+
+  --font-sans: Kumbh Sans, sans-serif;
+  --font-heading: Kumbh Sans, sans-serif;
+  --font-body: Kumbh Sans, sans-serif;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}

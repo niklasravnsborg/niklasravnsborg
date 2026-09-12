@@ -2,11 +2,11 @@
 import { cva } from '../utils/cva.config'
 
 const buttonVariants = cva({
-  base: 'inline-block whitespace-nowrap rounded-sm text-base font-bold leading-none ring-offset-white transition-colors hover:no-underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
+  base: 'inline-block rounded-sm text-base leading-none font-bold whitespace-nowrap ring-offset-white transition-colors hover:no-underline focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden disabled:pointer-events-none disabled:opacity-50',
   variants: {
     variant: {
       bordered:
-        'border border-darkgray/30 text-darkgray/80 hover:border-darkgray/60',
+        'border-darkgray/30 text-darkgray/80 hover:border-darkgray/60 border',
       colored: 'text-lightgray',
     },
     size: {
