@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions'
+import { ClientRouter } from 'astro:transitions'
 import '@fontsource/kumbh-sans'
 import '@fontsource/kumbh-sans/700.css'
 import '../styles/global.css'
@@ -28,12 +28,13 @@ const { title } = Astro.props
     <meta name="og:locale" content="de_DE" />
     <meta name="og:type" content="website" />
 
-    <ViewTransitions />
+    <ClientRouter />
     <script
       is:inline
       defer
       data-domain="niklasravnsborg.com"
-      src="https://plausible.io/js/plausible.js"></script>
+      src="https://plausible.io/js/plausible.js"
+    ></script>
   </head>
   <body>
     <Header pathname={Astro.url.pathname} />

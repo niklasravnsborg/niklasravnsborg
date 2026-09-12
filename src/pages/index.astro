@@ -8,7 +8,17 @@ import BorderCard from '../components/BorderCard.astro'
 
 import niklas from '../images/niklas.jpg'
 
-const allPosts = await Astro.glob('../pages/*.md')
+interface Post {
+  url: string
+  frontmatter: {
+    title: string
+    date: string
+  }
+}
+
+const allPosts = Object.values(
+  import.meta.glob<Post>('../pages/*.md', { eager: true }),
+)
 ---
 
 <Layout title="Über mich">
@@ -19,9 +29,7 @@ const allPosts = await Astro.glob('../pages/*.md')
         src={niklas}
         alt="Niklas"
       />
-      <h1
-        class="mb-3 inline bg-darkgray box-decoration-clone text-center text-lg font-bold leading-[1.8] text-white shadow-[0_0_0_4px] shadow-darkgray md:text-xl lg:text-2xl"
-      >
+      <h1 class="mb-3 inline bg-darkgray box-decoration-clone text-center text-lg font-bold leading-[1.8] text-white shadow-[0_0_0_4px] shadow-darkgray md:text-xl lg:text-2xl">
         Hej, ich bin Niklas. Zurzeit arbeite ich hauptsächlich an EstateSync.
         Mich beschäftigt die Frage, wie wir in unseren Karrieren auf
         gesellschaftlichen Wandel hinwirken können. Außerdem hab ich Spaß an
@@ -33,15 +41,13 @@ const allPosts = await Astro.glob('../pages/*.md')
     <Socials />
   </Container>
   <Container className="mb-5 md:mb-6">
-    {
-      allPosts.map(post => (
-        <a class="inline-block w-full sm:w-1/2 md:w-1/3" href={post.url}>
-          <BorderCard class="p-3">
-            <h2 class="mb-2 text-xl">{post.frontmatter.title}</h2>
-            <span class="text-lightgray">{post.frontmatter.date}</span>
-          </BorderCard>
-        </a>
-      ))
-    }
+    {allPosts.map(post => (
+      <a class="inline-block w-full sm:w-1/2 md:w-1/3" href={post.url}>
+        <BorderCard class="p-3">
+          <h2 class="mb-2 text-xl">{post.frontmatter.title}</h2>
+          <span class="text-lightgray">{post.frontmatter.date}</span>
+        </BorderCard>
+      </a>
+    ))}
   </Container>
 </Layout>

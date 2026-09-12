@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config'
+import { satteri } from '@astrojs/markdown-satteri'
 import yaml from '@rollup/plugin-yaml'
 import icon from 'astro-icon'
 
@@ -12,9 +13,14 @@ export default defineConfig({
     plugins: [yaml()],
   },
   markdown: {
-    remarkRehype: {
-      footnoteLabel: ' ',
-      footnoteLabelTagName: 'hr',
-    },
+    processor: satteri({
+      features: {
+        gfm: {
+          footnotes: {
+            label: ' ',
+          },
+        },
+      },
+    }),
   },
 })
